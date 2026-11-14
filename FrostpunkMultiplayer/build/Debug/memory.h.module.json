@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "Debug\\Memory.h.obj",
+            "outputs": [
+                "G:\\claude_code\\FrostpunkMultiplayer\\build\\Debug\\vc143.pdb",
+                "Debug\\",
+                "G:\\claude_code\\FrostpunkMultiplayer\\build\\Debug\\Memory.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "..\\src\\GameHooks\\Memory.h",
+                    "source-path": "g:\\claude_code\\frostpunkmultiplayer\\src\\gamehooks\\memory.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

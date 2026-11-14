@@ -1,0 +1,78 @@
+
+=== FrostMP Log Started: Sat Nov 14 05:21:59 2026
+[05:21:59.229] Launcher Run: argc=1
+[05:21:59.229]   argv[0] = G:\claude_code\FrostpunkMultiplayer\build\Release\FrostpunkMultiplayerLauncher.exe
+[05:21:59.229] Launcher: dllPath = G
+[05:21:59.229] Launcher: Calling LaunchOrAttach
+[05:21:59.229] LaunchOrAttach: newInstance=0, attachPid=0
+[05:21:59.236] LaunchOrAttach: target PID=0
+[05:21:59.237] LaunchOrAttach: Starting new instance
+[05:21:59.237] LaunchOrAttach: gamePath=C:\Program Files (x86)\Steam\steamapps\common\Frostpunk\Frostpunk.exe
+[05:21:59.270] Game SHA256: 031dbfe529256b7bf532aa11bfaf8ef75ef0618aa0492a970e532566342ba19d
+[05:21:59.270] Detected game version: 1.6.2
+[05:21:59.270] LaunchOrAttach: workingDir=C
+[05:21:59.271] LaunchOrAttach: Calling CreateProcessW
+[05:21:59.278] LaunchOrAttach: CreateProcessW succeeded, PID=17672
+[05:21:59.279] LaunchOrAttach: Waiting for kernel32 in new process
+[05:21:59.279] LaunchOrAttach: Injecting DLL
+[05:21:59.514] LaunchOrAttach: Injection complete
+[05:22:00.19] CallModInitFunction: isHost=1, localSteamID=0, hostSteamID=0
+[05:22:00.21] CallModInitFunction: remoteDllBase=0x7FFA94C10000, remoteFuncAddr=0x7FFA94C29A70
+[05:22:00.21] CallModInitFunction: Creating remote thread at shellcode, isHost=1
+[05:22:02.71] CallModInitFunction: remote thread wait=0, exitCode=0xC0000005
+[05:22:02.71] CallModInitFunction: Init function called successfully (thread exitCode=0xC0000005)
+[05:22:02.71] LaunchOrAttach: Game process exited with code 3221225477 after 0ms
+[05:22:02.71] LaunchOrAttach: Final game process code: 3221225477
+[05:22:02.71] Launcher: LaunchOrAttach returned
+
+=== FrostMP Log Started: Sat Nov 14 05:22:10 2026
+[05:22:10.9] Launcher Run: argc=1
+[05:22:10.9]   argv[0] = G:\claude_code\FrostpunkMultiplayer\build\Release\FrostpunkMultiplayerLauncher.exe
+[05:22:10.10] Launcher: dllPath = G
+[05:22:10.10] Launcher: Calling LaunchOrAttach
+[05:22:10.10] LaunchOrAttach: newInstance=0, attachPid=0
+[05:22:10.17] LaunchOrAttach: target PID=0
+[05:22:10.17] LaunchOrAttach: Starting new instance
+[05:22:10.17] LaunchOrAttach: gamePath=C:\Program Files (x86)\Steam\steamapps\common\Frostpunk\Frostpunk.exe
+[05:22:10.50] Game SHA256: 031dbfe529256b7bf532aa11bfaf8ef75ef0618aa0492a970e532566342ba19d
+[05:22:10.50] Detected game version: 1.6.2
+[05:22:10.50] LaunchOrAttach: workingDir=C
+[05:22:10.50] LaunchOrAttach: Calling CreateProcessW
+[05:22:10.58] LaunchOrAttach: CreateProcessW succeeded, PID=27580
+[05:22:10.60] LaunchOrAttach: Waiting for kernel32 in new process
+[05:22:10.60] LaunchOrAttach: Injecting DLL
+[05:22:10.305] LaunchOrAttach: Injection complete
+[05:22:10.809] CallModInitFunction: isHost=1, localSteamID=0, hostSteamID=0
+[05:22:10.810] CallModInitFunction: remoteDllBase=0x7FFA94C10000, remoteFuncAddr=0x7FFA94C29A70
+[05:22:10.811] CallModInitFunction: Creating remote thread at shellcode, isHost=1
+[05:22:12.736] CallModInitFunction: remote thread wait=0, exitCode=0xC0000005
+[05:22:12.736] CallModInitFunction: Init function called successfully (thread exitCode=0xC0000005)
+[05:22:12.736] LaunchOrAttach: Game process exited with code 3221225477 after 0ms
+[05:22:12.736] LaunchOrAttach: Final game process code: 3221225477
+[05:22:12.736] Launcher: LaunchOrAttach returned
+
+=== FrostMP Log Started: Sat Nov 14 05:24:55 2026
+[05:24:55.90] Launcher Run: argc=1
+[05:24:55.90]   argv[0] = G:\claude_code\FrostpunkMultiplayer\build\Release\FrostpunkMultiplayerLauncher.exe
+[05:24:55.91] Launcher: dllPath = G
+[05:24:55.91] Launcher: Calling LaunchOrAttach
+[05:24:55.91] LaunchOrAttach: newInstance=0, attachPid=0
+[05:24:55.98] LaunchOrAttach: target PID=0
+[05:24:55.98] LaunchOrAttach: Starting new instance
+[05:24:55.98] LaunchOrAttach: gamePath=C:\Program Files (x86)\Steam\steamapps\common\Frostpunk\Frostpunk.exe
+[05:24:55.134] Game SHA256: 031dbfe529256b7bf532aa11bfaf8ef75ef0618aa0492a970e532566342ba19d
+[05:24:55.134] Detected game version: 1.6.2
+[05:24:55.134] LaunchOrAttach: workingDir=C
+[05:24:55.134] LaunchOrAttach: Calling CreateProcessW
+[05:24:55.139] LaunchOrAttach: CreateProcessW succeeded, PID=14716
+[05:24:55.140] LaunchOrAttach: Waiting for kernel32 in new process
+[05:24:55.167] LaunchOrAttach: Injecting DLL
+[05:24:55.391] LaunchOrAttach: Injection complete
+[05:24:55.894] CallModInitFunction: isHost=1, localSteamID=0, hostSteamID=0
+[05:24:55.896] CallModInitFunction: remoteDllBase=0x7FFA971F0000, remoteFuncAddr=0x7FFA97209A70
+[05:24:55.896] CallModInitFunction: Creating remote thread at shellcode, isHost=1
+[05:24:57.917] CallModInitFunction: remote thread wait=0, exitCode=0xC0000005
+[05:24:57.917] CallModInitFunction: Init function called successfully (thread exitCode=0xC0000005)
+[05:24:57.917] LaunchOrAttach: Game process exited with code 3221225477 after 0ms
+[05:24:57.917] LaunchOrAttach: Final game process code: 3221225477
+[05:24:57.917] Launcher: LaunchOrAttach returned

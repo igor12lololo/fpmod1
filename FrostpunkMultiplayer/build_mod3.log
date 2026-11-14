@@ -1,0 +1,37 @@
+Building FrostMenuMod.dll (Release)...
+Версия MSBuild 18.3.0-release-26070-10+3972042b7 для .NET Framework
+
+C:\Program Files\Microsoft Visual Studio\2022\Community\Msbuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: промежуточный каталог (G:\claude_code\FrostpunkMultiplayer\build\Release\) содержит файлы, которые используются совместно с другим проектом (FrostpunkMultiplayerLauncher.vcxproj).  Это может привести к ошибкам очистки и перестроения. [G:\claude_code\FrostpunkMultiplayer\build\FrostMenuMod.vcxproj]
+  Проверка источников на наличие зависимостей модуля…
+  ModMain.cpp
+G:\claude_code\FrostpunkMultiplayer\src\ModDLL\ModMain.cpp(1406,64): error C3083: Network: символ слева от "::" должен представлять тип [G:\claude_code\FrostpunkMultiplayer\build\FrostMenuMod.vcxproj]
+G:\claude_code\FrostpunkMultiplayer\src\ModDLL\ModMain.cpp(1406,73): error C3083: NetworkManager: символ слева от "::" должен представлять тип [G:\claude_code\FrostpunkMultiplayer\build\FrostMenuMod.vcxproj]
+G:\claude_code\FrostpunkMultiplayer\src\ModDLL\ModMain.cpp(1406,89): error C3083: Role: символ слева от "::" должен представлять тип [G:\claude_code\FrostpunkMultiplayer\build\FrostMenuMod.vcxproj]
+G:\claude_code\FrostpunkMultiplayer\src\ModDLL\ModMain.cpp(1406,95): error C2039: "Host": не является членом "FrostMP::Mod::FrostMP". [G:\claude_code\FrostpunkMultiplayer\build\FrostMenuMod.vcxproj]
+      G:\claude_code\FrostpunkMultiplayer\src\ModDLL\ModMain.cpp(1395,11):
+       см. объявление "FrostMP::Mod::FrostMP"
+  
+G:\claude_code\FrostpunkMultiplayer\src\ModDLL\ModMain.cpp(1406,95): error C2065: Host: необъявленный идентификатор [G:\claude_code\FrostpunkMultiplayer\build\FrostMenuMod.vcxproj]
+G:\claude_code\FrostpunkMultiplayer\src\ModDLL\ModMain.cpp(1419,64): error C3083: Network: символ слева от "::" должен представлять тип [G:\claude_code\FrostpunkMultiplayer\build\FrostMenuMod.vcxproj]
+G:\claude_code\FrostpunkMultiplayer\src\ModDLL\ModMain.cpp(1419,73): error C3083: NetworkManager: символ слева от "::" должен представлять тип [G:\claude_code\FrostpunkMultiplayer\build\FrostMenuMod.vcxproj]
+G:\claude_code\FrostpunkMultiplayer\src\ModDLL\ModMain.cpp(1419,89): error C3083: Role: символ слева от "::" должен представлять тип [G:\claude_code\FrostpunkMultiplayer\build\FrostMenuMod.vcxproj]
+G:\claude_code\FrostpunkMultiplayer\src\ModDLL\ModMain.cpp(1419,95): error C2039: "Client": не является членом "FrostMP::Mod::FrostMP". [G:\claude_code\FrostpunkMultiplayer\build\FrostMenuMod.vcxproj]
+      G:\claude_code\FrostpunkMultiplayer\src\ModDLL\ModMain.cpp(1395,11):
+       см. объявление "FrostMP::Mod::FrostMP"
+  
+G:\claude_code\FrostpunkMultiplayer\src\ModDLL\ModMain.cpp(1419,95): error C2065: Client: необъявленный идентификатор [G:\claude_code\FrostpunkMultiplayer\build\FrostMenuMod.vcxproj]
+G:\claude_code\FrostpunkMultiplayer\src\ModDLL\ModMain.cpp(1435,30): error C2039: "GetModInstance": не является членом "FrostMP::Mod::FrostMP::Mod". [G:\claude_code\FrostpunkMultiplayer\build\FrostMenuMod.vcxproj]
+      G:\claude_code\FrostpunkMultiplayer\src\ModDLL\ModMain.cpp(1395,11):
+       см. объявление "FrostMP::Mod::FrostMP::Mod"
+  
+G:\claude_code\FrostpunkMultiplayer\src\ModDLL\ModMain.cpp(1439,34): error C2039: "GetModInstance": не является членом "FrostMP::Mod::FrostMP::Mod". [G:\claude_code\FrostpunkMultiplayer\build\FrostMenuMod.vcxproj]
+      G:\claude_code\FrostpunkMultiplayer\src\ModDLL\ModMain.cpp(1395,11):
+       см. объявление "FrostMP::Mod::FrostMP::Mod"
+  
+Build failed with exit code 1
+G:\claude_code\FrostpunkMultiplayer\Build-ModDLL.ps1:205 ����:5
++     throw "Build failed with exit code $exitCode"
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (Build failed with exit code 1:String) [], RuntimeException
+    + FullyQualifiedErrorId : Build failed with exit code 1
+ 

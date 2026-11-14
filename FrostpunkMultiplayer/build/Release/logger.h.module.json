@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "G:\\claude_code\\FrostpunkMultiplayer\\build\\Release\\Logger.h.obj",
+            "outputs": [
+                "G:\\claude_code\\FrostpunkMultiplayer\\build\\Release\\vc143.pdb",
+                "G:\\claude_code\\FrostpunkMultiplayer\\build\\Release\\",
+                "G:\\claude_code\\FrostpunkMultiplayer\\build\\Release\\Logger.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "..\\src\\Common\\Logger.h",
+                    "source-path": "g:\\claude_code\\frostpunkmultiplayer\\src\\common\\logger.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

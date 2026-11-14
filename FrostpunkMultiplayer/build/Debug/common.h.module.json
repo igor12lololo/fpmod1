@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "Debug\\Common.h.obj",
+            "outputs": [
+                "G:\\claude_code\\FrostpunkMultiplayer\\build\\Debug\\vc143.pdb",
+                "Debug\\",
+                "G:\\claude_code\\FrostpunkMultiplayer\\build\\Debug\\Common.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "..\\src\\Common\\Common.h",
+                    "source-path": "g:\\claude_code\\frostpunkmultiplayer\\src\\common\\common.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

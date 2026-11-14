@@ -1,0 +1,1507 @@
+
+=== FrostMP Log Started: Sat Nov 14 03:49:21 2026
+[03:49:21.772] Mod Initialize: localSteamID=0, role=1, hostSteamID=0
+[03:49:21.772] STEP 0: Verifying game version...
+[03:49:21.772] STEP 0: exePath=C:\Program Files (x86)\Steam\steamapps\common\Frostpunk\Frostpunk.exe
+[03:49:21.812] STEP 0: Game executable SHA256: 031dbfe529256b7bf532aa11bfaf8ef75ef0618aa0492a970e532566342ba19d
+[03:49:21.812] STEP 0: Game version verified: 1.6.2
+[03:49:21.812] STEP 1: Installing game hooks...
+[03:49:21.812] InstallCallbackHook: SetSpeed at 0x7FF66589E8FF, prologueSize=14
+[03:49:21.812] EXCEPTION in Initialize: resource deadlock would occur: resource deadlock would occur
+[03:49:21.812] ROLLBACK: Exception: resource deadlock would occur: resource deadlock would occur
+[03:49:21.813] InitializeMod: mod initialization FAILED
+[03:49:21.813] RemoveAllHooks: All hooks removed
+
+=== FrostMP Log Started: Sat Nov 14 03:51:35 2026
+[03:51:35.304] Mod Initialize: localSteamID=0, role=1, hostSteamID=0
+[03:51:35.304] STEP 0: Verifying game version...
+[03:51:35.304] STEP 0: exePath=C:\Program Files (x86)\Steam\steamapps\common\Frostpunk\Frostpunk.exe
+[03:51:35.339] STEP 0: Game executable SHA256: 031dbfe529256b7bf532aa11bfaf8ef75ef0618aa0492a970e532566342ba19d
+[03:51:35.339] STEP 0: Game version verified: 1.6.2
+[03:51:35.339] STEP 1: Installing game hooks...
+[03:51:35.339] InstallCallbackHook: SetSpeed at 0x7FF66589E8FF, prologueSize=14
+[03:51:35.376] InstallCallbackHook: Installed SetSpeed at 0x7FF66589E8FF (trampoline=000001EF54370000, detour=000001EF54380000)
+[03:51:35.376] HookGameFunctions: Installed hook 'SetSpeed' at RVA 0xD8E8FF
+[03:51:35.376] InstallCallbackHook: ChangeResource at 0x7FF665965880, prologueSize=19
+[03:51:35.415] InstallCallbackHook: Installed ChangeResource at 0x7FF665965880 (trampoline=000001EF54390000, detour=000001EF543A0000)
+[03:51:35.415] HookGameFunctions: Installed hook 'ChangeResource' at RVA 0xE55880
+[03:51:35.415] InstallCallbackHook: PauseRemoveReason at 0x7FF665D1A4E0, prologueSize=19
+[03:51:35.452] InstallCallbackHook: Installed PauseRemoveReason at 0x7FF665D1A4E0 (trampoline=000001EF543B0000, detour=000001EF543C0000)
+[03:51:35.452] HookGameFunctions: Installed hook 'PauseRemoveReason' at RVA 0x120A4E0
+[03:51:35.452] InstallCallbackHook: NativeSave at 0x7FF6661B2850, prologueSize=19
+[03:51:35.494] InstallCallbackHook: Installed NativeSave at 0x7FF6661B2850 (trampoline=000001EF543D0000, detour=000001EF543E0000)
+[03:51:35.495] HookGameFunctions: Installed hook 'NativeSave' at RVA 0x16A2850
+[03:51:35.495] InstallCallbackHook: EndlessStart at 0x7FF6658DDA00, prologueSize=19
+[03:51:35.532] InstallCallbackHook: Installed EndlessStart at 0x7FF6658DDA00 (trampoline=000001EF543F0000, detour=000001EF54400000)
+[03:51:35.532] HookGameFunctions: Installed hook 'EndlessStart' at RVA 0xDCDA00
+[03:51:35.532] HookGameFunctions: hooksInstalled_=1 (critical hooks OK=1)
+[03:51:35.532] STEP 1: HookGameFunctions done, hooksInstalled_=1
+[03:51:35.532] STEP 1: Game hooks installed OK
+[03:51:35.532] STEP 2: Initializing overlay...
+[03:51:35.532] Initialize called
+[03:51:35.532] Shared memory created: OK
+[03:51:35.532] Game window not found, using screen size: 2560x1440
+[03:51:35.548] Overlay window setup complete
+[03:51:35.548] Overlay window created: 0000000004AE07D8
+[03:51:35.548] STEP 2: Overlay init result=1
+[03:51:35.548] STEP 2: Overlay initialized OK
+[03:51:35.548] STEP 2: Reader/writer initialization deferred until in-game
+[03:51:35.548] STEP 3: Initializing network...
+[03:51:35.548] SteamNetworking: Initialize called, localSteamID=0
+[03:51:35.572] SteamNetworking: Loaded steamnetworkingsockets.dll: 00007FFAF56A0000
+[03:51:35.572] SteamNetworking: SteamInternal_CreateInterface = 00007FFB5E6A86C0
+[03:51:35.572] SteamNetworking: SteamInternal_CreateInterface(SteamNetworkingSockets012) returned 0000000000000000 (ret=0)
+[03:51:35.572] SteamNetworking: SteamInternal_CreateInterface(SteamNetworkingSockets011) returned 0000000000000000 (ret=0)
+[03:51:35.572] SteamNetworking: SteamNetworkingSockets_LibV12 = 00007FFAF571FC40
+[03:51:35.572] SteamNetworking: SteamNetworkingSockets_SetEnvironmentVariable = 00007FFAF571FC50
+[03:51:35.573] SteamNetworking: Set P2P environment variables
+[03:51:35.573] SteamNetworking: SteamNetworkingSockets_SetServiceThreadInitCallback = 00007FFAF5771480
+[03:51:35.573] SteamNetworking: Set service thread init callback
+[03:51:35.573] SteamNetworking: SteamNetworkingSockets_LibV12() returned 0000000000000000
+[03:51:35.573] SteamNetworking: Trying SteamAPI_GetISteamNetworkingSockets (game already initialized Steam)...
+[03:51:35.573] SteamNetworking: SteamAPI_GetISteamNetworkingSockets = 0000000000000000
+[03:51:35.573] SteamNetworking: SteamDatagramClient_Init = 00007FFAF571F920 (trying as last resort)
+[03:51:35.573] SteamNetworking: Calling SteamDatagramClient_Init() with timeout...
+
+=== FrostMP Log Started: Sat Nov 14 03:52:37 2026
+[03:52:37.573] Mod Initialize: localSteamID=0, role=1, hostSteamID=0
+[03:52:37.573] STEP 0: Verifying game version...
+[03:52:37.573] STEP 0: exePath=C:\Program Files (x86)\Steam\steamapps\common\Frostpunk\Frostpunk.exe
+[03:52:37.607] STEP 0: Game executable SHA256: 031dbfe529256b7bf532aa11bfaf8ef75ef0618aa0492a970e532566342ba19d
+[03:52:37.607] STEP 0: Game version verified: 1.6.2
+[03:52:37.607] STEP 1: Installing game hooks...
+[03:52:37.607] InstallCallbackHook: SetSpeed at 0x7FF66589E8FF, prologueSize=14
+[03:52:37.647] InstallCallbackHook: Installed SetSpeed at 0x7FF66589E8FF (trampoline=000002B6B79A0000, detour=000002B6B79B0000)
+[03:52:37.647] HookGameFunctions: Installed hook 'SetSpeed' at RVA 0xD8E8FF
+[03:52:37.647] InstallCallbackHook: ChangeResource at 0x7FF665965880, prologueSize=19
+[03:52:37.695] InstallCallbackHook: Installed ChangeResource at 0x7FF665965880 (trampoline=000002B6B79C0000, detour=000002B6B79D0000)
+[03:52:37.695] HookGameFunctions: Installed hook 'ChangeResource' at RVA 0xE55880
+[03:52:37.695] InstallCallbackHook: PauseRemoveReason at 0x7FF665D1A4E0, prologueSize=19
+[03:52:37.748] InstallCallbackHook: Installed PauseRemoveReason at 0x7FF665D1A4E0 (trampoline=000002B6B79E0000, detour=000002B6B79F0000)
+[03:52:37.748] HookGameFunctions: Installed hook 'PauseRemoveReason' at RVA 0x120A4E0
+[03:52:37.748] InstallCallbackHook: NativeSave at 0x7FF6661B2850, prologueSize=19
+[03:52:37.785] InstallCallbackHook: Installed NativeSave at 0x7FF6661B2850 (trampoline=000002B6B7A00000, detour=000002B6B7A10000)
+[03:52:37.785] HookGameFunctions: Installed hook 'NativeSave' at RVA 0x16A2850
+[03:52:37.785] InstallCallbackHook: EndlessStart at 0x7FF6658DDA00, prologueSize=19
+[03:52:37.822] InstallCallbackHook: Installed EndlessStart at 0x7FF6658DDA00 (trampoline=000002B6B7A20000, detour=000002B6B7A30000)
+[03:52:37.822] HookGameFunctions: Installed hook 'EndlessStart' at RVA 0xDCDA00
+[03:52:37.822] HookGameFunctions: hooksInstalled_=1 (critical hooks OK=1)
+[03:52:37.822] STEP 1: HookGameFunctions done, hooksInstalled_=1
+[03:52:37.822] STEP 1: Game hooks installed OK
+[03:52:37.822] STEP 2: Initializing overlay...
+[03:52:37.822] Initialize called
+[03:52:37.822] Shared memory created: OK
+[03:52:37.822] Game window not found, using screen size: 2560x1440
+[03:52:37.838] Overlay window setup complete
+[03:52:37.838] Overlay window created: 0000000004B007D8
+[03:52:37.838] STEP 2: Overlay init result=1
+[03:52:37.838] STEP 2: Overlay initialized OK
+[03:52:37.839] STEP 2: Reader/writer initialization deferred until in-game
+[03:52:37.839] STEP 3: Initializing network...
+[03:52:37.839] SteamNetworking: Initialize called, localSteamID=0
+[03:52:37.844] SteamNetworking: Loaded steamnetworkingsockets.dll: 00007FFAF56A0000
+[03:52:37.844] SteamNetworking: SteamInternal_CreateInterface = 00007FFB5E6A86C0
+[03:52:37.844] SteamNetworking: SteamInternal_CreateInterface(SteamNetworkingSockets012) returned 0000000000000000 (ret=0)
+[03:52:37.844] SteamNetworking: SteamInternal_CreateInterface(SteamNetworkingSockets011) returned 0000000000000000 (ret=0)
+[03:52:37.844] SteamNetworking: SteamNetworkingSockets_LibV12 = 00007FFAF571FC40
+[03:52:37.844] SteamNetworking: SteamNetworkingSockets_SetEnvironmentVariable = 00007FFAF571FC50
+[03:52:37.844] SteamNetworking: Set P2P environment variables
+[03:52:37.844] SteamNetworking: SteamNetworkingSockets_SetServiceThreadInitCallback = 00007FFAF5771480
+[03:52:37.844] SteamNetworking: Set service thread init callback
+[03:52:37.844] SteamNetworking: SteamNetworkingSockets_LibV12() returned 0000000000000000
+[03:52:37.844] SteamNetworking: Trying SteamAPI_GetISteamNetworkingSockets (game already initialized Steam)...
+[03:52:37.844] SteamNetworking: SteamAPI_GetISteamNetworkingSockets = 0000000000000000
+[03:52:37.844] SteamNetworking: SteamDatagramClient_Init = 00007FFAF571F920 (trying as last resort)
+[03:52:37.844] SteamNetworking: Calling SteamDatagramClient_Init() with timeout...
+
+=== FrostMP Log Started: Sat Nov 14 03:53:53 2026
+[03:53:53.792] Mod Initialize: localSteamID=0, role=1, hostSteamID=0
+[03:53:53.792] STEP 0: Verifying game version...
+[03:53:53.792] STEP 0: exePath=C:\Program Files (x86)\Steam\steamapps\common\Frostpunk\Frostpunk.exe
+[03:53:53.824] STEP 0: Game executable SHA256: 031dbfe529256b7bf532aa11bfaf8ef75ef0618aa0492a970e532566342ba19d
+[03:53:53.824] STEP 0: Game version verified: 1.6.2
+[03:53:53.824] STEP 1: Installing game hooks...
+[03:53:53.824] InstallCallbackHook: SetSpeed at 0x7FF66589E8FF, prologueSize=14
+[03:53:53.862] InstallCallbackHook: Installed SetSpeed at 0x7FF66589E8FF (trampoline=00000244730D0000, detour=00000244730E0000)
+[03:53:53.862] HookGameFunctions: Installed hook 'SetSpeed' at RVA 0xD8E8FF
+[03:53:53.862] InstallCallbackHook: ChangeResource at 0x7FF665965880, prologueSize=19
+[03:53:53.902] InstallCallbackHook: Installed ChangeResource at 0x7FF665965880 (trampoline=00000244730F0000, detour=0000024473100000)
+[03:53:53.902] HookGameFunctions: Installed hook 'ChangeResource' at RVA 0xE55880
+[03:53:53.902] InstallCallbackHook: PauseRemoveReason at 0x7FF665D1A4E0, prologueSize=19
+[03:53:53.940] InstallCallbackHook: Installed PauseRemoveReason at 0x7FF665D1A4E0 (trampoline=0000024473110000, detour=0000024473120000)
+[03:53:53.940] HookGameFunctions: Installed hook 'PauseRemoveReason' at RVA 0x120A4E0
+[03:53:53.940] InstallCallbackHook: NativeSave at 0x7FF6661B2850, prologueSize=19
+[03:53:53.980] InstallCallbackHook: Installed NativeSave at 0x7FF6661B2850 (trampoline=0000024473130000, detour=0000024473140000)
+[03:53:53.980] HookGameFunctions: Installed hook 'NativeSave' at RVA 0x16A2850
+[03:53:53.980] InstallCallbackHook: EndlessStart at 0x7FF6658DDA00, prologueSize=19
+[03:53:54.17] InstallCallbackHook: Installed EndlessStart at 0x7FF6658DDA00 (trampoline=0000024473150000, detour=0000024473160000)
+[03:53:54.17] HookGameFunctions: Installed hook 'EndlessStart' at RVA 0xDCDA00
+[03:53:54.17] HookGameFunctions: hooksInstalled_=1 (critical hooks OK=1)
+[03:53:54.17] STEP 1: HookGameFunctions done, hooksInstalled_=1
+[03:53:54.17] STEP 1: Game hooks installed OK
+[03:53:54.17] STEP 2: Initializing overlay...
+[03:53:54.17] Initialize called
+[03:53:54.18] Shared memory created: OK
+[03:53:54.18] Game window not found, using screen size: 2560x1440
+[03:53:54.32] Overlay window setup complete
+[03:53:54.32] Overlay window created: 0000000004B307D8
+[03:53:54.32] STEP 2: Overlay init result=1
+[03:53:54.32] STEP 2: Overlay initialized OK
+[03:53:54.32] STEP 2: Reader/writer initialization deferred until in-game
+[03:53:54.32] STEP 3: Initializing network...
+[03:53:54.32] SteamNetworking: Initialize called, localSteamID=0
+[03:53:54.32] SteamNetworking: localSteamID is 0, skipping network init (offline mode)
+[03:53:54.32] STEP 3: Network init result=1
+[03:53:54.32] STEP 3: Network initialized OK
+[03:53:54.32] STEP 3: Starting network role: HOST
+[03:53:54.32] STEP 3: StartHost returned: false
+[03:53:54.32] STEP 3: Network role start failed, cleaning up network
+[03:53:54.32] STEP DONE: Mod initialized successfully (hooks=OK, overlay=OK, network=FAIL, version=1.6.2), waiting for game session...
+[03:53:54.32] InitializeMod: mod initialized successfully, starting update thread
+[03:53:54.33] Update thread started
+
+=== FrostMP Log Started: Sat Nov 14 03:55:01 2026
+[03:55:01.772] Mod Initialize: localSteamID=0, role=1, hostSteamID=0
+[03:55:01.772] STEP 0: Verifying game version...
+[03:55:01.772] STEP 0: exePath=C:\Program Files (x86)\Steam\steamapps\common\Frostpunk\Frostpunk.exe
+[03:55:01.807] STEP 0: Game executable SHA256: 031dbfe529256b7bf532aa11bfaf8ef75ef0618aa0492a970e532566342ba19d
+[03:55:01.807] STEP 0: Game version verified: 1.6.2
+[03:55:01.807] STEP 1: Installing game hooks...
+[03:55:01.807] HookGameFunctions: Hooks temporarily disabled for crash isolation
+[03:55:01.807] HookGameFunctions: hooksInstalled_=1 (critical hooks OK=1)
+[03:55:01.807] STEP 1: HookGameFunctions done, hooksInstalled_=1
+[03:55:01.807] STEP 1: Game hooks installed OK
+[03:55:01.807] STEP 2: Initializing overlay...
+[03:55:01.807] Initialize called
+[03:55:01.807] Shared memory created: OK
+[03:55:01.808] Game window not found, using screen size: 2560x1440
+[03:55:01.823] Overlay window setup complete
+[03:55:01.823] Overlay window created: 00000000003E06FC
+[03:55:01.823] STEP 2: Overlay init result=1
+[03:55:01.823] STEP 2: Overlay initialized OK
+[03:55:01.823] STEP 2: Reader/writer initialization deferred until in-game
+[03:55:01.823] STEP 3: Initializing network...
+[03:55:01.823] SteamNetworking: Initialize called, localSteamID=0
+[03:55:01.823] SteamNetworking: localSteamID is 0, skipping network init (offline mode)
+[03:55:01.823] STEP 3: Network init result=1
+[03:55:01.823] STEP 3: Network initialized OK
+[03:55:01.824] STEP 3: Starting network role: HOST
+[03:55:01.824] STEP 3: StartHost returned: false
+[03:55:01.824] STEP 3: Network role start failed, cleaning up network
+[03:55:01.824] STEP DONE: Mod initialized successfully (hooks=OK, overlay=OK, network=FAIL, version=1.6.2), waiting for game session...
+[03:55:01.824] InitializeMod: mod initialized successfully, starting update thread
+[03:55:01.824] Update thread started
+[03:55:07.377] Update: initialized=1, inGame=0, hooks=1, networkState=0, readerInit=0
+[03:55:12.335] Update: initialized=1, inGame=0, hooks=1, networkState=0, readerInit=0
+[03:55:17.280] Update: initialized=1, inGame=0, hooks=1, networkState=0, readerInit=0
+[03:55:22.227] Update: initialized=1, inGame=0, hooks=1, networkState=0, readerInit=0
+[03:55:27.170] Update: initialized=1, inGame=0, hooks=1, networkState=0, readerInit=0
+[03:55:32.115] Update: initialized=1, inGame=0, hooks=1, networkState=0, readerInit=0
+[03:55:37.81] Update: initialized=1, inGame=0, hooks=1, networkState=0, readerInit=0
+[03:55:42.63] Update: initialized=1, inGame=0, hooks=1, networkState=0, readerInit=0
+[03:55:47.57] Update: initialized=1, inGame=0, hooks=1, networkState=0, readerInit=0
+[03:55:52.45] Update: initialized=1, inGame=0, hooks=1, networkState=0, readerInit=0
+[03:55:57.20] Update: initialized=1, inGame=0, hooks=1, networkState=0, readerInit=0
+[03:56:02.5] Update: initialized=1, inGame=0, hooks=1, networkState=0, readerInit=0
+[03:56:06.987] Update: initialized=1, inGame=0, hooks=1, networkState=0, readerInit=0
+[03:56:11.969] Update: initialized=1, inGame=0, hooks=1, networkState=0, readerInit=0
+[03:56:16.958] Update: initialized=1, inGame=0, hooks=1, networkState=0, readerInit=0
+[03:56:21.950] Update: initialized=1, inGame=0, hooks=1, networkState=0, readerInit=0
+[03:56:26.946] Update: initialized=1, inGame=0, hooks=1, networkState=0, readerInit=0
+[03:56:31.925] Update: initialized=1, inGame=0, hooks=1, networkState=0, readerInit=0
+[03:56:36.904] Update: initialized=1, inGame=0, hooks=1, networkState=0, readerInit=0
+[03:56:39.618] RemoveAllHooks: All hooks removed
+[03:56:39.618] RemoveAllHooks: All hooks removed
+
+=== FrostMP Log Started: Sat Nov 14 03:57:27 2026
+[03:57:27.850] Mod Initialize: localSteamID=0, role=1, hostSteamID=0
+[03:57:27.850] STEP 0: Verifying game version...
+[03:57:27.850] STEP 0: exePath=C:\Program Files (x86)\Steam\steamapps\common\Frostpunk\Frostpunk.exe
+[03:57:27.884] STEP 0: Game executable SHA256: 031dbfe529256b7bf532aa11bfaf8ef75ef0618aa0492a970e532566342ba19d
+[03:57:27.884] STEP 0: Game version verified: 1.6.2
+[03:57:27.884] STEP 1: Installing game hooks...
+[03:57:27.884] InstallCallbackHook: SetSpeed at 0x7FF66589E8FF, prologueSize=14
+[03:57:27.920] InstallCallbackHook: Installed SetSpeed at 0x7FF66589E8FF (trampoline=0000018B548D0000, detour=0000018B548E0000)
+[03:57:27.921] HookGameFunctions: Installed SetSpeed (RVA 0xD8E8FF)
+[03:57:27.921] HookGameFunctions: hooksInstalled_=1 (critical hooks OK=1)
+[03:57:27.921] STEP 1: HookGameFunctions done, hooksInstalled_=1
+[03:57:27.921] STEP 1: Game hooks installed OK
+[03:57:27.921] STEP 2: Initializing overlay...
+[03:57:27.921] Initialize called
+[03:57:27.921] Shared memory created: OK
+[03:57:27.921] Game window not found, using screen size: 2560x1440
+[03:57:27.937] Overlay window setup complete
+[03:57:27.937] Overlay window created: 00000000004306FC
+[03:57:27.937] STEP 2: Overlay init result=1
+[03:57:27.937] STEP 2: Overlay initialized OK
+[03:57:27.937] STEP 2: Reader/writer initialization deferred until in-game
+[03:57:27.937] STEP 3: Initializing network...
+[03:57:27.937] SteamNetworking: Initialize called, localSteamID=0
+[03:57:27.937] SteamNetworking: localSteamID is 0, skipping network init (offline mode)
+[03:57:27.937] STEP 3: Network init result=1
+[03:57:27.937] STEP 3: Network initialized OK
+[03:57:27.937] STEP 3: Starting network role: HOST
+[03:57:27.937] STEP 3: StartHost returned: false
+[03:57:27.937] STEP 3: Network role start failed, cleaning up network
+[03:57:27.937] STEP DONE: Mod initialized successfully (hooks=OK, overlay=OK, network=FAIL, version=1.6.2), waiting for game session...
+[03:57:27.937] InitializeMod: mod initialized successfully, starting update thread
+[03:57:27.937] Update thread started
+
+=== FrostMP Log Started: Sat Nov 14 03:58:40 2026
+[03:58:40.592] Mod Initialize: localSteamID=0, role=1, hostSteamID=0
+[03:58:40.592] STEP 0: Verifying game version...
+[03:58:40.592] STEP 0: exePath=C:\Program Files (x86)\Steam\steamapps\common\Frostpunk\Frostpunk.exe
+[03:58:40.626] STEP 0: Game executable SHA256: 031dbfe529256b7bf532aa11bfaf8ef75ef0618aa0492a970e532566342ba19d
+[03:58:40.626] STEP 0: Game version verified: 1.6.2
+[03:58:40.626] STEP 1: Installing game hooks...
+[03:58:40.626] InstallCallbackHook: ChangeResource at 0x7FF665965880, prologueSize=19
+[03:58:40.663] InstallCallbackHook: Installed ChangeResource at 0x7FF665965880 (trampoline=0000021664B20000, detour=0000021664B30000)
+[03:58:40.663] HookGameFunctions: Installed ChangeResource (RVA 0xE55880)
+[03:58:40.663] HookGameFunctions: hooksInstalled_=1 (critical hooks OK=1)
+[03:58:40.663] STEP 1: HookGameFunctions done, hooksInstalled_=1
+[03:58:40.663] STEP 1: Game hooks installed OK
+[03:58:40.663] STEP 2: Initializing overlay...
+[03:58:40.663] Initialize called
+[03:58:40.663] Shared memory created: OK
+[03:58:40.663] Game window not found, using screen size: 2560x1440
+[03:58:40.679] Overlay window setup complete
+[03:58:40.679] Overlay window created: 00000000001E0500
+[03:58:40.679] STEP 2: Overlay init result=1
+[03:58:40.679] STEP 2: Overlay initialized OK
+[03:58:40.679] STEP 2: Reader/writer initialization deferred until in-game
+[03:58:40.679] STEP 3: Initializing network...
+[03:58:40.679] SteamNetworking: Initialize called, localSteamID=0
+[03:58:40.679] SteamNetworking: localSteamID is 0, skipping network init (offline mode)
+[03:58:40.679] STEP 3: Network init result=1
+[03:58:40.679] STEP 3: Network initialized OK
+[03:58:40.679] STEP 3: Starting network role: HOST
+[03:58:40.679] STEP 3: StartHost returned: false
+[03:58:40.679] STEP 3: Network role start failed, cleaning up network
+[03:58:40.679] STEP DONE: Mod initialized successfully (hooks=OK, overlay=OK, network=FAIL, version=1.6.2), waiting for game session...
+[03:58:40.679] InitializeMod: mod initialized successfully, starting update thread
+[03:58:40.680] Update thread started
+[03:58:46.189] Update: initialized=1, inGame=0, hooks=1, networkState=0, readerInit=0
+[03:58:51.186] Update: initialized=1, inGame=0, hooks=1, networkState=0, readerInit=0
+[03:58:56.182] Update: initialized=1, inGame=0, hooks=1, networkState=0, readerInit=0
+[03:59:01.186] Update: initialized=1, inGame=0, hooks=1, networkState=0, readerInit=0
+[03:59:06.171] Update: initialized=1, inGame=0, hooks=1, networkState=0, readerInit=0
+
+=== FrostMP Log Started: Sat Nov 14 03:59:09 2026
+[03:59:09.414] Mod Initialize: localSteamID=0, role=1, hostSteamID=0
+[03:59:09.414] STEP 0: Verifying game version...
+[03:59:09.414] STEP 0: exePath=C:\Program Files (x86)\Steam\steamapps\common\Frostpunk\Frostpunk.exe
+[03:59:09.450] STEP 0: Game executable SHA256: 031dbfe529256b7bf532aa11bfaf8ef75ef0618aa0492a970e532566342ba19d
+[03:59:09.450] STEP 0: Game version verified: 1.6.2
+[03:59:09.450] STEP 1: Installing game hooks...
+[03:59:09.450] InstallCallbackHook: ChangeResource at 0x7FF665965880, prologueSize=19
+[03:59:09.487] InstallCallbackHook: Installed ChangeResource at 0x7FF665965880 (trampoline=0000023DCCA20000, detour=0000023DCCA30000)
+[03:59:09.487] HookGameFunctions: Installed ChangeResource (RVA 0xE55880)
+[03:59:09.487] HookGameFunctions: hooksInstalled_=1 (critical hooks OK=1)
+[03:59:09.487] STEP 1: HookGameFunctions done, hooksInstalled_=1
+[03:59:09.487] STEP 1: Game hooks installed OK
+[03:59:09.487] STEP 2: Initializing overlay...
+[03:59:09.487] Initialize called
+[03:59:09.487] Shared memory created: OK
+[03:59:09.487] Found game window: 000000000218090A, rect: 946,256-2402,1195
+[03:59:09.504] Overlay window setup complete
+[03:59:09.504] Overlay window created: 0000000004E30998
+[03:59:09.504] STEP 2: Overlay init result=1
+[03:59:09.504] STEP 2: Overlay initialized OK
+[03:59:09.504] STEP 2: Reader/writer initialization deferred until in-game
+[03:59:09.504] STEP 3: Initializing network...
+[03:59:09.504] SteamNetworking: Initialize called, localSteamID=0
+[03:59:09.504] SteamNetworking: localSteamID is 0, skipping network init (offline mode)
+[03:59:09.504] STEP 3: Network init result=1
+[03:59:09.504] STEP 3: Network initialized OK
+[03:59:09.504] STEP 3: Starting network role: HOST
+[03:59:09.504] STEP 3: StartHost returned: false
+[03:59:09.504] STEP 3: Network role start failed, cleaning up network
+[03:59:09.504] STEP DONE: Mod initialized successfully (hooks=OK, overlay=OK, network=FAIL, version=1.6.2), waiting for game session...
+[03:59:09.504] InitializeMod: mod initialized successfully, starting update thread
+[03:59:09.505] Update thread started
+[03:59:11.162] Update: initialized=1, inGame=0, hooks=1, networkState=0, readerInit=0
+[03:59:13.168] RemoveAllHooks: All hooks removed
+[03:59:13.168] RemoveAllHooks: All hooks removed
+[03:59:15.98] Update: initialized=1, inGame=0, hooks=1, networkState=0, readerInit=0
+[03:59:20.86] Update: initialized=1, inGame=0, hooks=1, networkState=0, readerInit=0
+[03:59:25.68] Update: initialized=1, inGame=0, hooks=1, networkState=0, readerInit=0
+[03:59:30.51] Update: initialized=1, inGame=0, hooks=1, networkState=0, readerInit=0
+[03:59:35.50] Update: initialized=1, inGame=0, hooks=1, networkState=0, readerInit=0
+
+=== FrostMP Log Started: Sat Nov 14 03:59:53 2026
+[03:59:53.514] Mod Initialize: localSteamID=0, role=1, hostSteamID=0
+[03:59:53.514] STEP 0: Verifying game version...
+[03:59:53.514] STEP 0: exePath=C:\Program Files (x86)\Steam\steamapps\common\Frostpunk\Frostpunk.exe
+[03:59:53.548] STEP 0: Game executable SHA256: 031dbfe529256b7bf532aa11bfaf8ef75ef0618aa0492a970e532566342ba19d
+[03:59:53.548] STEP 0: Game version verified: 1.6.2
+[03:59:53.548] STEP 1: Installing game hooks...
+[03:59:53.548] InstallCallbackHook: PauseRemoveReason at 0x7FF665D1A4E0, prologueSize=19
+[03:59:53.584] InstallCallbackHook: Installed PauseRemoveReason at 0x7FF665D1A4E0 (trampoline=00000135CE910000, detour=00000135CE920000)
+[03:59:53.584] HookGameFunctions: Installed PauseRemoveReason (RVA 0x120A4E0)
+[03:59:53.584] HookGameFunctions: hooksInstalled_=1 (critical hooks OK=1)
+[03:59:53.584] STEP 1: HookGameFunctions done, hooksInstalled_=1
+[03:59:53.584] STEP 1: Game hooks installed OK
+[03:59:53.584] STEP 2: Initializing overlay...
+[03:59:53.584] Initialize called
+[03:59:53.584] Shared memory created: OK
+[03:59:53.585] Game window not found, using screen size: 2560x1440
+[03:59:53.600] Overlay window setup complete
+[03:59:53.600] Overlay window created: 0000000000240500
+[03:59:53.600] STEP 2: Overlay init result=1
+[03:59:53.600] STEP 2: Overlay initialized OK
+[03:59:53.600] STEP 2: Reader/writer initialization deferred until in-game
+[03:59:53.600] STEP 3: Initializing network...
+[03:59:53.600] SteamNetworking: Initialize called, localSteamID=0
+[03:59:53.600] SteamNetworking: localSteamID is 0, skipping network init (offline mode)
+[03:59:53.600] STEP 3: Network init result=1
+[03:59:53.600] STEP 3: Network initialized OK
+[03:59:53.600] STEP 3: Starting network role: HOST
+[03:59:53.600] STEP 3: StartHost returned: false
+[03:59:53.600] STEP 3: Network role start failed, cleaning up network
+[03:59:53.601] STEP DONE: Mod initialized successfully (hooks=OK, overlay=OK, network=FAIL, version=1.6.2), waiting for game session...
+[03:59:53.601] InitializeMod: mod initialized successfully, starting update thread
+[03:59:53.601] Update thread started
+[03:59:59.93] Update: initialized=1, inGame=0, hooks=1, networkState=0, readerInit=0
+[04:00:04.74] Update: initialized=1, inGame=0, hooks=1, networkState=0, readerInit=0
+[04:00:09.73] Update: initialized=1, inGame=0, hooks=1, networkState=0, readerInit=0
+[04:00:14.54] Update: initialized=1, inGame=0, hooks=1, networkState=0, readerInit=0
+[04:00:19.51] Update: initialized=1, inGame=0, hooks=1, networkState=0, readerInit=0
+[04:00:24.33] Update: initialized=1, inGame=0, hooks=1, networkState=0, readerInit=0
+[04:00:29.20] Update: initialized=1, inGame=0, hooks=1, networkState=0, readerInit=0
+
+=== FrostMP Log Started: Sat Nov 14 04:00:37 2026
+[04:00:37.126] Mod Initialize: localSteamID=0, role=1, hostSteamID=0
+[04:00:37.126] STEP 0: Verifying game version...
+[04:00:37.126] STEP 0: exePath=C:\Program Files (x86)\Steam\steamapps\common\Frostpunk\Frostpunk.exe
+[04:00:37.160] STEP 0: Game executable SHA256: 031dbfe529256b7bf532aa11bfaf8ef75ef0618aa0492a970e532566342ba19d
+[04:00:37.160] STEP 0: Game version verified: 1.6.2
+[04:00:37.160] STEP 1: Installing game hooks...
+[04:00:37.160] InstallCallbackHook: NativeSave at 0x7FF6661B2850, prologueSize=19
+[04:00:37.196] InstallCallbackHook: Installed NativeSave at 0x7FF6661B2850 (trampoline=0000016463720000, detour=0000016463730000)
+[04:00:37.196] HookGameFunctions: Installed NativeSave (RVA 0x16A2850)
+[04:00:37.196] HookGameFunctions: hooksInstalled_=1 (critical hooks OK=1)
+[04:00:37.196] STEP 1: HookGameFunctions done, hooksInstalled_=1
+[04:00:37.196] STEP 1: Game hooks installed OK
+[04:00:37.196] STEP 2: Initializing overlay...
+[04:00:37.196] Initialize called
+[04:00:37.196] Shared memory created: OK
+[04:00:37.196] Game window not found, using screen size: 2560x1440
+[04:00:37.212] Overlay window setup complete
+[04:00:37.212] Overlay window created: 00000000038A07FC
+[04:00:37.212] STEP 2: Overlay init result=1
+[04:00:37.212] STEP 2: Overlay initialized OK
+[04:00:37.212] STEP 2: Reader/writer initialization deferred until in-game
+[04:00:37.212] STEP 3: Initializing network...
+[04:00:37.212] SteamNetworking: Initialize called, localSteamID=0
+[04:00:37.212] SteamNetworking: localSteamID is 0, skipping network init (offline mode)
+[04:00:37.212] STEP 3: Network init result=1
+[04:00:37.212] STEP 3: Network initialized OK
+[04:00:37.212] STEP 3: Starting network role: HOST
+[04:00:37.212] STEP 3: StartHost returned: false
+[04:00:37.212] STEP 3: Network role start failed, cleaning up network
+[04:00:37.212] STEP DONE: Mod initialized successfully (hooks=OK, overlay=OK, network=FAIL, version=1.6.2), waiting for game session...
+[04:00:37.212] InitializeMod: mod initialized successfully, starting update thread
+[04:00:37.212] Update thread started
+[04:00:42.671] Update: initialized=1, inGame=0, hooks=1, networkState=0, readerInit=0
+[04:00:47.663] Update: initialized=1, inGame=0, hooks=1, networkState=0, readerInit=0
+[04:00:52.655] Update: initialized=1, inGame=0, hooks=1, networkState=0, readerInit=0
+[04:00:57.654] Update: initialized=1, inGame=0, hooks=1, networkState=0, readerInit=0
+[04:01:02.648] Update: initialized=1, inGame=0, hooks=1, networkState=0, readerInit=0
+[04:01:07.634] Update: initialized=1, inGame=0, hooks=1, networkState=0, readerInit=0
+
+=== FrostMP Log Started: Sat Nov 14 04:01:15 2026
+[04:01:15.662] Mod Initialize: localSteamID=0, role=1, hostSteamID=0
+[04:01:15.662] STEP 0: Verifying game version...
+[04:01:15.662] STEP 0: exePath=C:\Program Files (x86)\Steam\steamapps\common\Frostpunk\Frostpunk.exe
+[04:01:15.697] STEP 0: Game executable SHA256: 031dbfe529256b7bf532aa11bfaf8ef75ef0618aa0492a970e532566342ba19d
+[04:01:15.697] STEP 0: Game version verified: 1.6.2
+[04:01:15.697] STEP 1: Installing game hooks...
+[04:01:15.697] InstallCallbackHook: EndlessStart at 0x7FF6658DDA00, prologueSize=19
+[04:01:15.733] InstallCallbackHook: Installed EndlessStart at 0x7FF6658DDA00 (trampoline=000001BE65590000, detour=000001BE655A0000)
+[04:01:15.733] HookGameFunctions: Installed EndlessStart (RVA 0xDCDA00)
+[04:01:15.733] HookGameFunctions: hooksInstalled_=1 (critical hooks OK=1)
+[04:01:15.733] STEP 1: HookGameFunctions done, hooksInstalled_=1
+[04:01:15.733] STEP 1: Game hooks installed OK
+[04:01:15.733] STEP 2: Initializing overlay...
+[04:01:15.733] Initialize called
+[04:01:15.733] Shared memory created: OK
+[04:01:15.733] Game window not found, using screen size: 2560x1440
+[04:01:15.748] Overlay window setup complete
+[04:01:15.748] Overlay window created: 000000000DF304B6
+[04:01:15.748] STEP 2: Overlay init result=1
+[04:01:15.748] STEP 2: Overlay initialized OK
+[04:01:15.748] STEP 2: Reader/writer initialization deferred until in-game
+[04:01:15.748] STEP 3: Initializing network...
+[04:01:15.748] SteamNetworking: Initialize called, localSteamID=0
+[04:01:15.748] SteamNetworking: localSteamID is 0, skipping network init (offline mode)
+[04:01:15.748] STEP 3: Network init result=1
+[04:01:15.748] STEP 3: Network initialized OK
+[04:01:15.748] STEP 3: Starting network role: HOST
+[04:01:15.748] STEP 3: StartHost returned: false
+[04:01:15.748] STEP 3: Network role start failed, cleaning up network
+[04:01:15.748] STEP DONE: Mod initialized successfully (hooks=OK, overlay=OK, network=FAIL, version=1.6.2), waiting for game session...
+[04:01:15.748] InitializeMod: mod initialized successfully, starting update thread
+[04:01:15.748] Update thread started
+[04:01:19.372] HOOK TRIGGERED: EndlessStart (first call)
+
+=== FrostMP Log Started: Sat Nov 14 04:03:26 2026
+[04:03:26.958] Mod Initialize: localSteamID=0, role=1, hostSteamID=0
+[04:03:26.958] STEP 0: Verifying game version...
+[04:03:26.958] STEP 0: exePath=C:\Program Files (x86)\Steam\steamapps\common\Frostpunk\Frostpunk.exe
+[04:03:26.993] STEP 0: Game executable SHA256: 031dbfe529256b7bf532aa11bfaf8ef75ef0618aa0492a970e532566342ba19d
+[04:03:26.993] STEP 0: Game version verified: 1.6.2
+[04:03:26.993] STEP 1: Installing game hooks...
+[04:03:26.993] InstallCallbackHook: SetSpeed at 0x7FF66589E8FF, prologueSize=14
+[04:03:27.32] InstallCallbackHook: Installed SetSpeed at 0x7FF66589E8FF (trampoline=00000199C87B0000, detour=00000199C87C0000)
+[04:03:27.32] HookGameFunctions: Installed SetSpeed (RVA 0xD8E8FF)
+[04:03:27.32] HookGameFunctions: hooksInstalled_=1 (critical hooks OK=1)
+[04:03:27.32] STEP 1: HookGameFunctions done, hooksInstalled_=1
+[04:03:27.32] STEP 1: Game hooks installed OK
+[04:03:27.32] STEP 2: Initializing overlay...
+[04:03:27.32] Initialize called
+[04:03:27.32] Shared memory created: OK
+[04:03:27.32] Found game window: 00000000004D06FC, rect: 552,239-2008,1178
+[04:03:27.50] Overlay window setup complete
+[04:03:27.50] Overlay window created: 0000000004EC0998
+[04:03:27.50] STEP 2: Overlay init result=1
+[04:03:27.50] STEP 2: Overlay initialized OK
+[04:03:27.50] STEP 2: Reader/writer initialization deferred until in-game
+[04:03:27.50] STEP 3: Initializing network...
+[04:03:27.50] SteamNetworking: Initialize called, localSteamID=0
+[04:03:27.50] SteamNetworking: localSteamID is 0, skipping network init (offline mode)
+[04:03:27.50] STEP 3: Network init result=1
+[04:03:27.50] STEP 3: Network initialized OK
+[04:03:27.50] STEP 3: Starting network role: HOST
+[04:03:27.50] STEP 3: StartHost returned: false
+[04:03:27.50] STEP 3: Network role start failed, cleaning up network
+[04:03:27.50] STEP DONE: Mod initialized successfully (hooks=OK, overlay=OK, network=FAIL, version=1.6.2), waiting for game session...
+[04:03:27.50] InitializeMod: mod initialized successfully, starting update thread
+[04:03:27.50] Update thread started
+
+=== FrostMP Log Started: Sat Nov 14 04:04:38 2026
+[04:04:38.243] Mod Initialize: localSteamID=0, role=1, hostSteamID=0
+[04:04:38.243] STEP 0: Verifying game version...
+[04:04:38.243] STEP 0: exePath=C:\Program Files (x86)\Steam\steamapps\common\Frostpunk\Frostpunk.exe
+[04:04:38.278] STEP 0: Game executable SHA256: 031dbfe529256b7bf532aa11bfaf8ef75ef0618aa0492a970e532566342ba19d
+[04:04:38.278] STEP 0: Game version verified: 1.6.2
+[04:04:38.278] STEP 1: Installing game hooks...
+[04:04:38.278] InstallCallbackHook: SetSpeed at 0x7FF66589E8FF, prologueSize=34
+[04:04:38.315] InstallCallbackHook: Installed SetSpeed at 0x7FF66589E8FF (trampoline=0000020959370000, detour=0000020959380000)
+[04:04:38.315] HookGameFunctions: Installed SetSpeed (RVA 0xD8E8FF)
+[04:04:38.315] HookGameFunctions: hooksInstalled_=1 (critical hooks OK=1)
+[04:04:38.315] STEP 1: HookGameFunctions done, hooksInstalled_=1
+[04:04:38.315] STEP 1: Game hooks installed OK
+[04:04:38.315] STEP 2: Initializing overlay...
+[04:04:38.315] Initialize called
+[04:04:38.315] Shared memory created: OK
+[04:04:38.315] Game window not found, using screen size: 2560x1440
+[04:04:38.330] Overlay window setup complete
+[04:04:38.330] Overlay window created: 00000000080C06D2
+[04:04:38.330] STEP 2: Overlay init result=1
+[04:04:38.330] STEP 2: Overlay initialized OK
+[04:04:38.330] STEP 2: Reader/writer initialization deferred until in-game
+[04:04:38.330] STEP 3: Initializing network...
+[04:04:38.330] SteamNetworking: Initialize called, localSteamID=0
+[04:04:38.330] SteamNetworking: localSteamID is 0, skipping network init (offline mode)
+[04:04:38.330] STEP 3: Network init result=1
+[04:04:38.330] STEP 3: Network initialized OK
+[04:04:38.330] STEP 3: Starting network role: HOST
+[04:04:38.330] STEP 3: StartHost returned: false
+[04:04:38.330] STEP 3: Network role start failed, cleaning up network
+[04:04:38.330] STEP DONE: Mod initialized successfully (hooks=OK, overlay=OK, network=FAIL, version=1.6.2), waiting for game session...
+[04:04:38.330] InitializeMod: mod initialized successfully, starting update thread
+[04:04:38.330] Update thread started
+
+=== FrostMP Log Started: Sat Nov 14 04:06:05 2026
+[04:06:05.489] Mod Initialize: localSteamID=0, role=1, hostSteamID=0
+[04:06:05.489] STEP 0: Verifying game version...
+[04:06:05.489] STEP 0: exePath=C:\Program Files (x86)\Steam\steamapps\common\Frostpunk\Frostpunk.exe
+[04:06:05.523] STEP 0: Game executable SHA256: 031dbfe529256b7bf532aa11bfaf8ef75ef0618aa0492a970e532566342ba19d
+[04:06:05.523] STEP 0: Game version verified: 1.6.2
+[04:06:05.523] STEP 1: Installing game hooks...
+[04:06:05.523] InstallCallbackHook: SetSpeed at 0x7FF66589E8FF, prologueSize=34
+[04:06:05.559] InstallCallbackHook: Installed SetSpeed at 0x7FF66589E8FF (trampoline=000001C9D9C00000, detour=000001C9D9C10000)
+[04:06:05.559] HookGameFunctions: Installed SetSpeed (RVA 0xD8E8FF)
+[04:06:05.559] HookGameFunctions: hooksInstalled_=1 (critical hooks OK=1)
+[04:06:05.559] STEP 1: HookGameFunctions done, hooksInstalled_=1
+[04:06:05.559] STEP 1: Game hooks installed OK
+[04:06:05.559] STEP 2: Initializing overlay...
+[04:06:05.559] Initialize called
+[04:06:05.559] Shared memory created: OK
+[04:06:05.559] Game window not found, using screen size: 2560x1440
+[04:06:05.574] Overlay window setup complete
+[04:06:05.574] Overlay window created: 000000000DF904B6
+[04:06:05.574] STEP 2: Overlay init result=1
+[04:06:05.574] STEP 2: Overlay initialized OK
+[04:06:05.574] STEP 2: Reader/writer initialization deferred until in-game
+[04:06:05.574] STEP 3: Initializing network...
+[04:06:05.574] SteamNetworking: Initialize called, localSteamID=0
+[04:06:05.574] SteamNetworking: localSteamID is 0, skipping network init (offline mode)
+[04:06:05.574] STEP 3: Network init result=1
+[04:06:05.574] STEP 3: Network initialized OK
+[04:06:05.574] STEP 3: Starting network role: HOST
+[04:06:05.574] STEP 3: StartHost returned: false
+[04:06:05.574] STEP 3: Network role start failed, cleaning up network
+[04:06:05.574] STEP DONE: Mod initialized successfully (hooks=OK, overlay=OK, network=FAIL, version=1.6.2), waiting for game session...
+[04:06:05.575] InitializeMod: mod initialized successfully, starting update thread
+[04:06:05.575] Update thread started
+
+=== FrostMP Log Started: Sat Nov 14 04:08:05 2026
+[04:08:05.546] Mod Initialize: localSteamID=0, role=1, hostSteamID=0
+[04:08:05.546] STEP 0: Verifying game version...
+[04:08:05.546] STEP 0: exePath=C:\Program Files (x86)\Steam\steamapps\common\Frostpunk\Frostpunk.exe
+[04:08:05.581] STEP 0: Game executable SHA256: 031dbfe529256b7bf532aa11bfaf8ef75ef0618aa0492a970e532566342ba19d
+[04:08:05.581] STEP 0: Game version verified: 1.6.2
+[04:08:05.581] STEP 1: Installing game hooks...
+[04:08:05.581] InstallCallbackHook: SetSpeed at 0x7FF66589E8FF, prologueSize=34
+[04:08:05.620] InstallCallbackHook: Installed SetSpeed at 0x7FF66589E8FF (trampoline=0000019F46D80000, detour=0000019F46D90000)
+[04:08:05.620] HookGameFunctions: Installed SetSpeed (RVA 0xD8E8FF)
+[04:08:05.620] HookGameFunctions: hooksInstalled_=1 (critical hooks OK=1)
+[04:08:05.620] STEP 1: HookGameFunctions done, hooksInstalled_=1
+[04:08:05.620] STEP 1: Game hooks installed OK
+[04:08:05.620] STEP 2: Initializing overlay...
+[04:08:05.620] Initialize called
+[04:08:05.621] Shared memory created: OK
+[04:08:05.621] Game window not found, using screen size: 2560x1440
+[04:08:05.636] Overlay window setup complete
+[04:08:05.636] Overlay window created: 00000000081006D2
+[04:08:05.636] STEP 2: Overlay init result=1
+[04:08:05.636] STEP 2: Overlay initialized OK
+[04:08:05.636] STEP 2: Reader/writer initialization deferred until in-game
+[04:08:05.636] STEP 3: Initializing network...
+[04:08:05.636] SteamNetworking: Initialize called, localSteamID=0
+[04:08:05.636] SteamNetworking: localSteamID is 0, skipping network init (offline mode)
+[04:08:05.637] STEP 3: Network init result=1
+[04:08:05.637] STEP 3: Network initialized OK
+[04:08:05.637] STEP 3: Starting network role: HOST
+[04:08:05.637] STEP 3: StartHost returned: false
+[04:08:05.637] STEP 3: Network role start failed, cleaning up network
+[04:08:05.637] STEP DONE: Mod initialized successfully (hooks=OK, overlay=OK, network=FAIL, version=1.6.2), waiting for game session...
+[04:08:05.637] InitializeMod: mod initialized successfully, starting update thread
+[04:08:05.637] Update thread started
+
+=== FrostMP Log Started: Sat Nov 14 04:09:16 2026
+[04:09:16.157] Mod Initialize: localSteamID=0, role=1, hostSteamID=0
+[04:09:16.157] STEP 0: Verifying game version...
+[04:09:16.157] STEP 0: exePath=C:\Program Files (x86)\Steam\steamapps\common\Frostpunk\Frostpunk.exe
+[04:09:16.191] STEP 0: Game executable SHA256: 031dbfe529256b7bf532aa11bfaf8ef75ef0618aa0492a970e532566342ba19d
+[04:09:16.191] STEP 0: Game version verified: 1.6.2
+[04:09:16.191] STEP 1: Installing game hooks...
+[04:09:16.191] InstallCallbackHook: SetSpeed at 0x7FF66589E8FF, prologueSize=34
+[04:09:16.229] InstallCallbackHook: Installed SetSpeed at 0x7FF66589E8FF (trampoline=000002356B540000, detour=000002356B550000)
+[04:09:16.229] HookGameFunctions: Installed SetSpeed (RVA 0xD8E8FF)
+[04:09:16.229] HookGameFunctions: hooksInstalled_=1 (critical hooks OK=1)
+[04:09:16.229] STEP 1: HookGameFunctions done, hooksInstalled_=1
+[04:09:16.229] STEP 1: Game hooks installed OK
+[04:09:16.229] STEP 2: Initializing overlay...
+[04:09:16.229] Initialize called
+[04:09:16.229] Shared memory created: OK
+[04:09:16.230] Game window not found, using screen size: 2560x1440
+[04:09:16.247] Overlay window setup complete
+[04:09:16.247] Overlay window created: 0000000000240854
+[04:09:16.247] STEP 2: Overlay init result=1
+[04:09:16.247] STEP 2: Overlay initialized OK
+[04:09:16.247] STEP 2: Reader/writer initialization deferred until in-game
+[04:09:16.247] STEP 3: Initializing network...
+[04:09:16.247] SteamNetworking: Initialize called, localSteamID=0
+[04:09:16.247] SteamNetworking: localSteamID is 0, skipping network init (offline mode)
+[04:09:16.247] STEP 3: Network init result=1
+[04:09:16.247] STEP 3: Network initialized OK
+[04:09:16.247] STEP 3: Starting network role: HOST
+[04:09:16.247] STEP 3: StartHost returned: false
+[04:09:16.247] STEP 3: Network role start failed, cleaning up network
+[04:09:16.247] STEP DONE: Mod initialized successfully (hooks=OK, overlay=OK, network=FAIL, version=1.6.2), waiting for game session...
+[04:09:16.247] InitializeMod: mod initialized successfully, starting update thread
+[04:09:16.247] Update thread started
+
+=== FrostMP Log Started: Sat Nov 14 04:10:06 2026
+[04:10:06.794] Mod Initialize: localSteamID=0, role=1, hostSteamID=0
+[04:10:06.794] STEP 0: Verifying game version...
+[04:10:06.795] STEP 0: exePath=C:\Program Files (x86)\Steam\steamapps\common\Frostpunk\Frostpunk.exe
+[04:10:06.829] STEP 0: Game executable SHA256: 031dbfe529256b7bf532aa11bfaf8ef75ef0618aa0492a970e532566342ba19d
+[04:10:06.829] STEP 0: Game version verified: 1.6.2
+[04:10:06.829] STEP 1: Installing game hooks...
+[04:10:06.829] InstallCallbackHook: ChangeResource at 0x7FF665965880, prologueSize=34
+[04:10:06.865] InstallCallbackHook: Installed ChangeResource at 0x7FF665965880 (trampoline=000001D2F5D90000, detour=000001D2F5DA0000)
+[04:10:06.865] HookGameFunctions: Installed ChangeResource (RVA 0xE55880)
+[04:10:06.865] InstallCallbackHook: PauseRemoveReason at 0x7FF665D1A4E0, prologueSize=39
+[04:10:06.901] InstallCallbackHook: Installed PauseRemoveReason at 0x7FF665D1A4E0 (trampoline=000001D2F5DB0000, detour=000001D2F5DC0000)
+[04:10:06.901] HookGameFunctions: Installed PauseRemoveReason (RVA 0x120A4E0)
+[04:10:06.901] InstallCallbackHook: NativeSave at 0x7FF6661B2850, prologueSize=32
+[04:10:06.941] InstallCallbackHook: Installed NativeSave at 0x7FF6661B2850 (trampoline=000001D2F5DD0000, detour=000001D2F5DE0000)
+[04:10:06.941] HookGameFunctions: Installed NativeSave (RVA 0x16A2850)
+[04:10:06.941] InstallCallbackHook: EndlessStart at 0x7FF6658DDA00, prologueSize=33
+[04:10:06.977] InstallCallbackHook: Installed EndlessStart at 0x7FF6658DDA00 (trampoline=000001D2F5DF0000, detour=000001D2F5E00000)
+[04:10:06.977] HookGameFunctions: Installed EndlessStart (RVA 0xDCDA00)
+[04:10:06.977] HookGameFunctions: hooksInstalled_=1 (critical hooks OK=1)
+[04:10:06.977] STEP 1: HookGameFunctions done, hooksInstalled_=1
+[04:10:06.977] STEP 1: Game hooks installed OK
+[04:10:06.977] STEP 2: Initializing overlay...
+[04:10:06.977] Initialize called
+[04:10:06.977] Shared memory created: OK
+[04:10:06.977] Game window not found, using screen size: 2560x1440
+[04:10:06.991] Overlay window setup complete
+[04:10:06.991] Overlay window created: 000000000011082A
+[04:10:06.991] STEP 2: Overlay init result=1
+[04:10:06.991] STEP 2: Overlay initialized OK
+[04:10:06.991] STEP 2: Reader/writer initialization deferred until in-game
+[04:10:06.991] STEP 3: Initializing network...
+[04:10:06.991] SteamNetworking: Initialize called, localSteamID=0
+[04:10:06.991] SteamNetworking: localSteamID is 0, skipping network init (offline mode)
+[04:10:06.991] STEP 3: Network init result=1
+[04:10:06.991] STEP 3: Network initialized OK
+[04:10:06.991] STEP 3: Starting network role: HOST
+[04:10:06.991] STEP 3: StartHost returned: false
+[04:10:06.991] STEP 3: Network role start failed, cleaning up network
+[04:10:06.991] STEP DONE: Mod initialized successfully (hooks=OK, overlay=OK, network=FAIL, version=1.6.2), waiting for game session...
+[04:10:06.991] InitializeMod: mod initialized successfully, starting update thread
+[04:10:06.992] Update thread started
+[04:10:10.578] HOOK TRIGGERED: EndlessStart (first call)
+
+=== FrostMP Log Started: Sat Nov 14 04:12:27 2026
+[04:12:27.876] Mod Initialize: localSteamID=0, role=1, hostSteamID=0
+[04:12:27.876] STEP 0: Verifying game version...
+[04:12:27.876] STEP 0: exePath=C:\Program Files (x86)\Steam\steamapps\common\Frostpunk\Frostpunk.exe
+[04:12:27.912] STEP 0: Game executable SHA256: 031dbfe529256b7bf532aa11bfaf8ef75ef0618aa0492a970e532566342ba19d
+[04:12:27.912] STEP 0: Game version verified: 1.6.2
+[04:12:27.912] STEP 1: Installing game hooks...
+[04:12:27.913] InstallCallbackHook: ChangeResource at 0x7FF665965880, prologueSize=34
+[04:12:27.952] InstallCallbackHook: Installed ChangeResource at 0x7FF665965880 (trampoline=000001DC3C320000, detour=000001DC3C330000)
+[04:12:27.952] HookGameFunctions: Installed ChangeResource (RVA 0xE55880)
+[04:12:27.952] InstallCallbackHook: PauseRemoveReason at 0x7FF665D1A4E0, prologueSize=39
+[04:12:27.990] InstallCallbackHook: Installed PauseRemoveReason at 0x7FF665D1A4E0 (trampoline=000001DC3C340000, detour=000001DC3C350000)
+[04:12:27.990] HookGameFunctions: Installed PauseRemoveReason (RVA 0x120A4E0)
+[04:12:27.990] InstallCallbackHook: NativeSave at 0x7FF6661B2850, prologueSize=32
+[04:12:28.26] InstallCallbackHook: Installed NativeSave at 0x7FF6661B2850 (trampoline=000001DC3C360000, detour=000001DC3C370000)
+[04:12:28.26] HookGameFunctions: Installed NativeSave (RVA 0x16A2850)
+[04:12:28.26] InstallCallbackHook: EndlessStart at 0x7FF6658DDA00, prologueSize=33
+[04:12:28.62] InstallCallbackHook: Installed EndlessStart at 0x7FF6658DDA00 (trampoline=000001DC3C380000, detour=000001DC3C390000)
+[04:12:28.63] HookGameFunctions: Installed EndlessStart (RVA 0xDCDA00)
+[04:12:28.63] HookGameFunctions: hooksInstalled_=1 (critical hooks OK=1)
+[04:12:28.63] STEP 1: HookGameFunctions done, hooksInstalled_=1
+[04:12:28.63] STEP 1: Game hooks installed OK
+[04:12:28.63] STEP 2: Initializing overlay...
+[04:12:28.63] Initialize called
+[04:12:28.63] Shared memory created: OK
+[04:12:28.63] Game window not found, using screen size: 2560x1440
+[04:12:28.78] Overlay window setup complete
+[04:12:28.78] Overlay window created: 0000000004F00998
+[04:12:28.78] STEP 2: Overlay init result=1
+[04:12:28.78] STEP 2: Overlay initialized OK
+[04:12:28.78] STEP 2: Reader/writer initialization deferred until in-game
+[04:12:28.78] STEP 3: Initializing network...
+[04:12:28.78] SteamNetworking: Initialize called, localSteamID=0
+[04:12:28.78] SteamNetworking: localSteamID is 0, skipping network init (offline mode)
+[04:12:28.78] STEP 3: Network init result=1
+[04:12:28.78] STEP 3: Network initialized OK
+[04:12:28.78] STEP 3: Starting network role: HOST
+[04:12:28.78] STEP 3: StartHost returned: false
+[04:12:28.78] STEP 3: Network role start failed, cleaning up network
+[04:12:28.78] STEP DONE: Mod initialized successfully (hooks=OK, overlay=OK, network=FAIL, version=1.6.2), waiting for game session...
+[04:12:28.78] InitializeMod: mod initialized successfully, starting update thread
+[04:12:28.78] Update thread started
+[04:12:31.758] HOOK TRIGGERED: EndlessStart (first call)
+
+=== FrostMP Log Started: Sat Nov 14 04:12:38 2026
+[04:12:38.253] Mod Initialize: localSteamID=0, role=1, hostSteamID=0
+[04:12:38.253] STEP 0: Verifying game version...
+[04:12:38.253] STEP 0: exePath=C:\Program Files (x86)\Steam\steamapps\common\Frostpunk\Frostpunk.exe
+[04:12:38.287] STEP 0: Game executable SHA256: 031dbfe529256b7bf532aa11bfaf8ef75ef0618aa0492a970e532566342ba19d
+[04:12:38.288] STEP 0: Game version verified: 1.6.2
+[04:12:38.288] STEP 1: Installing game hooks...
+[04:12:38.288] InstallCallbackHook: ChangeResource at 0x7FF665965880, prologueSize=34
+[04:12:38.324] InstallCallbackHook: Installed ChangeResource at 0x7FF665965880 (trampoline=0000020349610000, detour=0000020349620000)
+[04:12:38.324] HookGameFunctions: Installed ChangeResource (RVA 0xE55880)
+[04:12:38.324] InstallCallbackHook: PauseRemoveReason at 0x7FF665D1A4E0, prologueSize=39
+[04:12:38.361] InstallCallbackHook: Installed PauseRemoveReason at 0x7FF665D1A4E0 (trampoline=0000020349630000, detour=0000020349640000)
+[04:12:38.361] HookGameFunctions: Installed PauseRemoveReason (RVA 0x120A4E0)
+[04:12:38.361] InstallCallbackHook: NativeSave at 0x7FF6661B2850, prologueSize=32
+[04:12:38.398] InstallCallbackHook: Installed NativeSave at 0x7FF6661B2850 (trampoline=0000020349650000, detour=0000020349660000)
+[04:12:38.398] HookGameFunctions: Installed NativeSave (RVA 0x16A2850)
+[04:12:38.398] InstallCallbackHook: EndlessStart at 0x7FF6658DDA00, prologueSize=33
+[04:12:38.434] InstallCallbackHook: Installed EndlessStart at 0x7FF6658DDA00 (trampoline=0000020349670000, detour=0000020349680000)
+[04:12:38.434] HookGameFunctions: Installed EndlessStart (RVA 0xDCDA00)
+[04:12:38.434] HookGameFunctions: hooksInstalled_=1 (critical hooks OK=1)
+[04:12:38.434] STEP 1: HookGameFunctions done, hooksInstalled_=1
+[04:12:38.434] STEP 1: Game hooks installed OK
+[04:12:38.434] STEP 2: Initializing overlay...
+[04:12:38.434] Initialize called
+[04:12:38.434] Shared memory created: OK
+[04:12:38.434] Game window not found, using screen size: 2560x1440
+[04:12:38.451] Overlay window setup complete
+[04:12:38.451] Overlay window created: 00000000004E083A
+[04:12:38.451] STEP 2: Overlay init result=1
+[04:12:38.451] STEP 2: Overlay initialized OK
+[04:12:38.451] STEP 2: Reader/writer initialization deferred until in-game
+[04:12:38.451] STEP 3: Initializing network...
+[04:12:38.451] SteamNetworking: Initialize called, localSteamID=0
+[04:12:38.451] SteamNetworking: localSteamID is 0, skipping network init (offline mode)
+[04:12:38.451] STEP 3: Network init result=1
+[04:12:38.451] STEP 3: Network initialized OK
+[04:12:38.451] STEP 3: Starting network role: HOST
+[04:12:38.451] STEP 3: StartHost returned: false
+[04:12:38.451] STEP 3: Network role start failed, cleaning up network
+[04:12:38.451] STEP DONE: Mod initialized successfully (hooks=OK, overlay=OK, network=FAIL, version=1.6.2), waiting for game session...
+[04:12:38.451] InitializeMod: mod initialized successfully, starting update thread
+[04:12:38.451] Update thread started
+[04:12:42.121] HOOK TRIGGERED: EndlessStart (first call)
+
+=== FrostMP Log Started: Sat Nov 14 04:12:47 2026
+[04:12:47.472] Mod Initialize: localSteamID=0, role=1, hostSteamID=0
+[04:12:47.472] STEP 0: Verifying game version...
+[04:12:47.472] STEP 0: exePath=C:\Program Files (x86)\Steam\steamapps\common\Frostpunk\Frostpunk.exe
+[04:12:47.508] STEP 0: Game executable SHA256: 031dbfe529256b7bf532aa11bfaf8ef75ef0618aa0492a970e532566342ba19d
+[04:12:47.508] STEP 0: Game version verified: 1.6.2
+[04:12:47.508] STEP 1: Installing game hooks...
+[04:12:47.508] InstallCallbackHook: ChangeResource at 0x7FF665965880, prologueSize=34
+[04:12:47.546] InstallCallbackHook: Installed ChangeResource at 0x7FF665965880 (trampoline=0000012F37FA0000, detour=0000012F37FB0000)
+[04:12:47.546] HookGameFunctions: Installed ChangeResource (RVA 0xE55880)
+[04:12:47.546] InstallCallbackHook: PauseRemoveReason at 0x7FF665D1A4E0, prologueSize=39
+[04:12:47.585] InstallCallbackHook: Installed PauseRemoveReason at 0x7FF665D1A4E0 (trampoline=0000012F37FC0000, detour=0000012F37FD0000)
+[04:12:47.585] HookGameFunctions: Installed PauseRemoveReason (RVA 0x120A4E0)
+[04:12:47.585] InstallCallbackHook: NativeSave at 0x7FF6661B2850, prologueSize=32
+[04:12:47.621] InstallCallbackHook: Installed NativeSave at 0x7FF6661B2850 (trampoline=0000012F37FE0000, detour=0000012F37FF0000)
+[04:12:47.621] HookGameFunctions: Installed NativeSave (RVA 0x16A2850)
+[04:12:47.621] InstallCallbackHook: EndlessStart at 0x7FF6658DDA00, prologueSize=33
+[04:12:47.657] InstallCallbackHook: Installed EndlessStart at 0x7FF6658DDA00 (trampoline=0000012F38000000, detour=0000012F38010000)
+[04:12:47.657] HookGameFunctions: Installed EndlessStart (RVA 0xDCDA00)
+[04:12:47.657] HookGameFunctions: hooksInstalled_=1 (critical hooks OK=1)
+[04:12:47.657] STEP 1: HookGameFunctions done, hooksInstalled_=1
+[04:12:47.657] STEP 1: Game hooks installed OK
+[04:12:47.657] STEP 2: Initializing overlay...
+[04:12:47.657] Initialize called
+[04:12:47.657] Shared memory created: OK
+[04:12:47.658] Game window not found, using screen size: 2560x1440
+[04:12:47.672] Overlay window setup complete
+[04:12:47.672] Overlay window created: 00000000013F0920
+[04:12:47.672] STEP 2: Overlay init result=1
+[04:12:47.672] STEP 2: Overlay initialized OK
+[04:12:47.672] STEP 2: Reader/writer initialization deferred until in-game
+[04:12:47.672] STEP 3: Initializing network...
+[04:12:47.672] SteamNetworking: Initialize called, localSteamID=0
+[04:12:47.672] SteamNetworking: localSteamID is 0, skipping network init (offline mode)
+[04:12:47.672] STEP 3: Network init result=1
+[04:12:47.672] STEP 3: Network initialized OK
+[04:12:47.672] STEP 3: Starting network role: HOST
+[04:12:47.672] STEP 3: StartHost returned: false
+[04:12:47.672] STEP 3: Network role start failed, cleaning up network
+[04:12:47.672] STEP DONE: Mod initialized successfully (hooks=OK, overlay=OK, network=FAIL, version=1.6.2), waiting for game session...
+[04:12:47.672] InitializeMod: mod initialized successfully, starting update thread
+[04:12:47.672] Update thread started
+[04:12:51.286] HOOK TRIGGERED: EndlessStart (first call)
+
+=== FrostMP Log Started: Sat Nov 14 04:12:55 2026
+[04:12:55.589] Mod Initialize: localSteamID=0, role=1, hostSteamID=0
+[04:12:55.589] STEP 0: Verifying game version...
+[04:12:55.589] STEP 0: exePath=C:\Program Files (x86)\Steam\steamapps\common\Frostpunk\Frostpunk.exe
+[04:12:55.624] STEP 0: Game executable SHA256: 031dbfe529256b7bf532aa11bfaf8ef75ef0618aa0492a970e532566342ba19d
+[04:12:55.624] STEP 0: Game version verified: 1.6.2
+[04:12:55.624] STEP 1: Installing game hooks...
+[04:12:55.624] InstallCallbackHook: ChangeResource at 0x7FF665965880, prologueSize=34
+[04:12:55.662] InstallCallbackHook: Installed ChangeResource at 0x7FF665965880 (trampoline=000001E2E4080000, detour=000001E2E4090000)
+[04:12:55.662] HookGameFunctions: Installed ChangeResource (RVA 0xE55880)
+[04:12:55.662] InstallCallbackHook: PauseRemoveReason at 0x7FF665D1A4E0, prologueSize=39
+[04:12:55.699] InstallCallbackHook: Installed PauseRemoveReason at 0x7FF665D1A4E0 (trampoline=000001E2E40A0000, detour=000001E2E40B0000)
+[04:12:55.699] HookGameFunctions: Installed PauseRemoveReason (RVA 0x120A4E0)
+[04:12:55.699] InstallCallbackHook: NativeSave at 0x7FF6661B2850, prologueSize=32
+[04:12:55.736] InstallCallbackHook: Installed NativeSave at 0x7FF6661B2850 (trampoline=000001E2E40C0000, detour=000001E2E40D0000)
+[04:12:55.736] HookGameFunctions: Installed NativeSave (RVA 0x16A2850)
+[04:12:55.736] InstallCallbackHook: EndlessStart at 0x7FF6658DDA00, prologueSize=33
+[04:12:55.773] InstallCallbackHook: Installed EndlessStart at 0x7FF6658DDA00 (trampoline=000001E2E40E0000, detour=000001E2E40F0000)
+[04:12:55.773] HookGameFunctions: Installed EndlessStart (RVA 0xDCDA00)
+[04:12:55.773] HookGameFunctions: hooksInstalled_=1 (critical hooks OK=1)
+[04:12:55.773] STEP 1: HookGameFunctions done, hooksInstalled_=1
+[04:12:55.773] STEP 1: Game hooks installed OK
+[04:12:55.773] STEP 2: Initializing overlay...
+[04:12:55.773] Initialize called
+[04:12:55.773] Shared memory created: OK
+[04:12:55.773] Game window not found, using screen size: 2560x1440
+[04:12:55.786] Overlay window setup complete
+[04:12:55.787] Overlay window created: 000000000052083A
+[04:12:55.787] STEP 2: Overlay init result=1
+[04:12:55.787] STEP 2: Overlay initialized OK
+[04:12:55.787] STEP 2: Reader/writer initialization deferred until in-game
+[04:12:55.787] STEP 3: Initializing network...
+[04:12:55.787] SteamNetworking: Initialize called, localSteamID=0
+[04:12:55.787] SteamNetworking: localSteamID is 0, skipping network init (offline mode)
+[04:12:55.787] STEP 3: Network init result=1
+[04:12:55.787] STEP 3: Network initialized OK
+[04:12:55.787] STEP 3: Starting network role: HOST
+[04:12:55.787] STEP 3: StartHost returned: false
+[04:12:55.787] STEP 3: Network role start failed, cleaning up network
+[04:12:55.787] STEP DONE: Mod initialized successfully (hooks=OK, overlay=OK, network=FAIL, version=1.6.2), waiting for game session...
+[04:12:55.787] InitializeMod: mod initialized successfully, starting update thread
+[04:12:55.787] Update thread started
+[04:12:59.415] HOOK TRIGGERED: EndlessStart (first call)
+
+=== FrostMP Log Started: Sat Nov 14 04:13:04 2026
+[04:13:04.575] Mod Initialize: localSteamID=0, role=1, hostSteamID=0
+[04:13:04.575] STEP 0: Verifying game version...
+[04:13:04.575] STEP 0: exePath=C:\Program Files (x86)\Steam\steamapps\common\Frostpunk\Frostpunk.exe
+[04:13:04.609] STEP 0: Game executable SHA256: 031dbfe529256b7bf532aa11bfaf8ef75ef0618aa0492a970e532566342ba19d
+[04:13:04.609] STEP 0: Game version verified: 1.6.2
+[04:13:04.609] STEP 1: Installing game hooks...
+[04:13:04.609] InstallCallbackHook: ChangeResource at 0x7FF665965880, prologueSize=34
+[04:13:04.645] InstallCallbackHook: Installed ChangeResource at 0x7FF665965880 (trampoline=000001AEE1290000, detour=000001AEE12A0000)
+[04:13:04.645] HookGameFunctions: Installed ChangeResource (RVA 0xE55880)
+[04:13:04.645] InstallCallbackHook: PauseRemoveReason at 0x7FF665D1A4E0, prologueSize=39
+[04:13:04.681] InstallCallbackHook: Installed PauseRemoveReason at 0x7FF665D1A4E0 (trampoline=000001AEE12B0000, detour=000001AEE12C0000)
+[04:13:04.681] HookGameFunctions: Installed PauseRemoveReason (RVA 0x120A4E0)
+[04:13:04.681] InstallCallbackHook: NativeSave at 0x7FF6661B2850, prologueSize=32
+[04:13:04.717] InstallCallbackHook: Installed NativeSave at 0x7FF6661B2850 (trampoline=000001AEE12D0000, detour=000001AEE12E0000)
+[04:13:04.717] HookGameFunctions: Installed NativeSave (RVA 0x16A2850)
+[04:13:04.717] InstallCallbackHook: EndlessStart at 0x7FF6658DDA00, prologueSize=33
+[04:13:04.753] InstallCallbackHook: Installed EndlessStart at 0x7FF6658DDA00 (trampoline=000001AEE12F0000, detour=000001AEE1300000)
+[04:13:04.754] HookGameFunctions: Installed EndlessStart (RVA 0xDCDA00)
+[04:13:04.754] HookGameFunctions: hooksInstalled_=1 (critical hooks OK=1)
+[04:13:04.754] STEP 1: HookGameFunctions done, hooksInstalled_=1
+[04:13:04.754] STEP 1: Game hooks installed OK
+[04:13:04.754] STEP 2: Initializing overlay...
+[04:13:04.754] Initialize called
+[04:13:04.754] Shared memory created: OK
+[04:13:04.754] Game window not found, using screen size: 2560x1440
+[04:13:04.768] Overlay window setup complete
+[04:13:04.768] Overlay window created: 0000000004FA0998
+[04:13:04.768] STEP 2: Overlay init result=1
+[04:13:04.768] STEP 2: Overlay initialized OK
+[04:13:04.768] STEP 2: Reader/writer initialization deferred until in-game
+[04:13:04.768] STEP 3: Initializing network...
+[04:13:04.768] SteamNetworking: Initialize called, localSteamID=0
+[04:13:04.768] SteamNetworking: localSteamID is 0, skipping network init (offline mode)
+[04:13:04.768] STEP 3: Network init result=1
+[04:13:04.768] STEP 3: Network initialized OK
+[04:13:04.768] STEP 3: Starting network role: HOST
+[04:13:04.768] STEP 3: StartHost returned: false
+[04:13:04.768] STEP 3: Network role start failed, cleaning up network
+[04:13:04.768] STEP DONE: Mod initialized successfully (hooks=OK, overlay=OK, network=FAIL, version=1.6.2), waiting for game session...
+[04:13:04.768] InitializeMod: mod initialized successfully, starting update thread
+[04:13:04.768] Update thread started
+[04:13:08.385] HOOK TRIGGERED: EndlessStart (first call)
+
+=== FrostMP Log Started: Sat Nov 14 04:48:11 2026
+[04:48:11.67] Mod Initialize: localSteamID=0, role=1, hostSteamID=0
+[04:48:11.67] STEP 0: Verifying game version...
+[04:48:11.67] STEP 0: exePath=C:\Program Files (x86)\Steam\steamapps\common\Frostpunk\Frostpunk.exe
+[04:48:11.103] STEP 0: Game executable SHA256: 031dbfe529256b7bf532aa11bfaf8ef75ef0618aa0492a970e532566342ba19d
+[04:48:11.104] STEP 0: Game version verified: 1.6.2
+[04:48:11.104] STEP 1: Installing game hooks...
+[04:48:11.104] InstallCallbackHook: ChangeResource at 0x7FF665965880, prologueSize=34
+[04:48:11.142] InstallCallbackHook: Installed ChangeResource at 0x7FF665965880 (trampoline=000001DAF6750000, detour=000001DAF6760000)
+[04:48:11.142] HookGameFunctions: Installed ChangeResource (RVA 0xE55880)
+[04:48:11.143] InstallCallbackHook: PauseRemoveReason at 0x7FF665D1A4E0, prologueSize=39
+[04:48:11.179] InstallCallbackHook: Installed PauseRemoveReason at 0x7FF665D1A4E0 (trampoline=000001DAF6770000, detour=000001DAF6780000)
+[04:48:11.179] HookGameFunctions: Installed PauseRemoveReason (RVA 0x120A4E0)
+[04:48:11.179] InstallCallbackHook: NativeSave at 0x7FF6661B2850, prologueSize=32
+[04:48:11.218] InstallCallbackHook: Installed NativeSave at 0x7FF6661B2850 (trampoline=000001DAF6790000, detour=000001DAF67A0000)
+[04:48:11.218] HookGameFunctions: Installed NativeSave (RVA 0x16A2850)
+[04:48:11.218] InstallCallbackHook: EndlessStart at 0x7FF6658DDA00, prologueSize=33
+[04:48:11.254] InstallCallbackHook: Installed EndlessStart at 0x7FF6658DDA00 (trampoline=000001DAF67B0000, detour=000001DAF67C0000)
+[04:48:11.254] HookGameFunctions: Installed EndlessStart (RVA 0xDCDA00)
+[04:48:11.254] HookGameFunctions: hooksInstalled_=1 (critical hooks OK=1)
+[04:48:11.254] STEP 1: HookGameFunctions done, hooksInstalled_=1
+[04:48:11.254] STEP 1: Game hooks installed OK
+[04:48:11.254] STEP 2: Initializing overlay...
+[04:48:11.254] Initialize called
+[04:48:11.254] Shared memory created: OK
+[04:48:11.254] Game window not found, using screen size: 2560x1440
+[04:48:11.270] Overlay window setup complete
+[04:48:11.270] Overlay window created: 0000000007D90B62
+[04:48:11.270] STEP 2: Overlay init result=1
+[04:48:11.270] STEP 2: Overlay initialized OK
+[04:48:11.270] STEP 2: Reader/writer initialization deferred until in-game
+[04:48:11.270] STEP 3: Initializing network...
+[04:48:11.270] SteamNetworking: Initialize called, localSteamID=0
+[04:48:11.270] SteamNetworking: localSteamID is 0, skipping network init (offline mode)
+[04:48:11.270] STEP 3: Network init result=1
+[04:48:11.270] STEP 3: Network initialized OK
+[04:48:11.270] STEP 3: Starting network role: HOST
+[04:48:11.270] STEP 3: StartHost returned: false
+[04:48:11.270] STEP 3: Network role start failed, cleaning up network
+[04:48:11.270] STEP DONE: Mod initialized successfully (hooks=OK, overlay=OK, network=FAIL, version=1.6.2), waiting for game session...
+[04:48:11.270] InitializeMod: mod initialized successfully, starting update thread
+[04:48:11.271] Update thread started
+[04:48:14.904] HOOK TRIGGERED: EndlessStart (first call)
+
+=== FrostMP Log Started: Sat Nov 14 04:48:33 2026
+[04:48:33.426] Mod Initialize: localSteamID=0, role=1, hostSteamID=0
+[04:48:33.426] STEP 0: Verifying game version...
+[04:48:33.426] STEP 0: exePath=C:\Program Files (x86)\Steam\steamapps\common\Frostpunk\Frostpunk.exe
+[04:48:33.461] STEP 0: Game executable SHA256: 031dbfe529256b7bf532aa11bfaf8ef75ef0618aa0492a970e532566342ba19d
+[04:48:33.461] STEP 0: Game version verified: 1.6.2
+[04:48:33.461] STEP 1: Installing game hooks...
+[04:48:33.461] InstallCallbackHook: ChangeResource at 0x7FF665965880, prologueSize=34
+[04:48:33.499] InstallCallbackHook: Installed ChangeResource at 0x7FF665965880 (trampoline=00000236F6140000, detour=00000236F6150000)
+[04:48:33.499] HookGameFunctions: Installed ChangeResource (RVA 0xE55880)
+[04:48:33.499] InstallCallbackHook: PauseRemoveReason at 0x7FF665D1A4E0, prologueSize=39
+[04:48:33.536] InstallCallbackHook: Installed PauseRemoveReason at 0x7FF665D1A4E0 (trampoline=00000236F6160000, detour=00000236F6170000)
+[04:48:33.536] HookGameFunctions: Installed PauseRemoveReason (RVA 0x120A4E0)
+[04:48:33.536] InstallCallbackHook: NativeSave at 0x7FF6661B2850, prologueSize=32
+[04:48:33.573] InstallCallbackHook: Installed NativeSave at 0x7FF6661B2850 (trampoline=00000236F6180000, detour=00000236F6190000)
+[04:48:33.573] HookGameFunctions: Installed NativeSave (RVA 0x16A2850)
+[04:48:33.573] InstallCallbackHook: EndlessStart at 0x7FF6658DDA00, prologueSize=33
+[04:48:33.610] InstallCallbackHook: Installed EndlessStart at 0x7FF6658DDA00 (trampoline=00000236F61A0000, detour=00000236F61B0000)
+[04:48:33.610] HookGameFunctions: Installed EndlessStart (RVA 0xDCDA00)
+[04:48:33.610] HookGameFunctions: hooksInstalled_=1 (critical hooks OK=1)
+[04:48:33.610] STEP 1: HookGameFunctions done, hooksInstalled_=1
+[04:48:33.610] STEP 1: Game hooks installed OK
+[04:48:33.610] STEP 2: Initializing overlay...
+[04:48:33.610] Initialize called
+[04:48:33.610] Shared memory created: OK
+[04:48:33.610] Game window not found, using screen size: 2560x1440
+[04:48:33.627] Overlay window setup complete
+[04:48:33.627] Overlay window created: 0000000000250866
+[04:48:33.627] STEP 2: Overlay init result=1
+[04:48:33.627] STEP 2: Overlay initialized OK
+[04:48:33.627] STEP 2: Reader/writer initialization deferred until in-game
+[04:48:33.627] STEP 3: Initializing network...
+[04:48:33.627] SteamNetworking: Initialize called, localSteamID=0
+[04:48:33.627] SteamNetworking: localSteamID is 0, skipping network init (offline mode)
+[04:48:33.627] STEP 3: Network init result=1
+[04:48:33.627] STEP 3: Network initialized OK
+[04:48:33.627] STEP 3: Starting network role: HOST
+[04:48:33.627] STEP 3: StartHost returned: false
+[04:48:33.627] STEP 3: Network role start failed, cleaning up network
+[04:48:33.627] STEP DONE: Mod initialized successfully (hooks=OK, overlay=OK, network=FAIL, version=1.6.2), waiting for game session...
+[04:48:33.627] InitializeMod: mod initialized successfully, starting update thread
+[04:48:33.628] Update thread started
+[04:48:37.301] HOOK TRIGGERED: EndlessStart (first call)
+
+=== FrostMP Log Started: Sat Nov 14 04:48:48 2026
+[04:48:48.718] Mod Initialize: localSteamID=0, role=1, hostSteamID=0
+[04:48:48.718] STEP 0: Verifying game version...
+[04:48:48.718] STEP 0: exePath=C:\Program Files (x86)\Steam\steamapps\common\Frostpunk\Frostpunk.exe
+[04:48:48.752] STEP 0: Game executable SHA256: 031dbfe529256b7bf532aa11bfaf8ef75ef0618aa0492a970e532566342ba19d
+[04:48:48.752] STEP 0: Game version verified: 1.6.2
+[04:48:48.752] STEP 1: Installing game hooks...
+[04:48:48.752] InstallCallbackHook: ChangeResource at 0x7FF665965880, prologueSize=34
+[04:48:48.789] InstallCallbackHook: Installed ChangeResource at 0x7FF665965880 (trampoline=0000022351BA0000, detour=0000022351BB0000)
+[04:48:48.789] HookGameFunctions: Installed ChangeResource (RVA 0xE55880)
+[04:48:48.789] InstallCallbackHook: PauseRemoveReason at 0x7FF665D1A4E0, prologueSize=39
+[04:48:48.827] InstallCallbackHook: Installed PauseRemoveReason at 0x7FF665D1A4E0 (trampoline=0000022351BC0000, detour=0000022351BD0000)
+[04:48:48.827] HookGameFunctions: Installed PauseRemoveReason (RVA 0x120A4E0)
+[04:48:48.827] InstallCallbackHook: NativeSave at 0x7FF6661B2850, prologueSize=32
+[04:48:48.863] InstallCallbackHook: Installed NativeSave at 0x7FF6661B2850 (trampoline=0000022351BE0000, detour=0000022351BF0000)
+[04:48:48.863] HookGameFunctions: Installed NativeSave (RVA 0x16A2850)
+[04:48:48.863] InstallCallbackHook: EndlessStart at 0x7FF6658DDA00, prologueSize=33
+[04:48:48.899] InstallCallbackHook: Installed EndlessStart at 0x7FF6658DDA00 (trampoline=0000022351C00000, detour=0000022351C10000)
+[04:48:48.899] HookGameFunctions: Installed EndlessStart (RVA 0xDCDA00)
+[04:48:48.899] HookGameFunctions: hooksInstalled_=1 (critical hooks OK=1)
+[04:48:48.899] STEP 1: HookGameFunctions done, hooksInstalled_=1
+[04:48:48.899] STEP 1: Game hooks installed OK
+[04:48:48.899] STEP 2: Initializing overlay...
+[04:48:48.899] Initialize called
+[04:48:48.899] Shared memory created: OK
+[04:48:48.900] Game window not found, using screen size: 2560x1440
+[04:48:48.914] Overlay window setup complete
+[04:48:48.914] Overlay window created: 0000000000170AC0
+[04:48:48.914] STEP 2: Overlay init result=1
+[04:48:48.914] STEP 2: Overlay initialized OK
+[04:48:48.914] STEP 2: Reader/writer initialization deferred until in-game
+[04:48:48.914] STEP 3: Initializing network...
+[04:48:48.914] SteamNetworking: Initialize called, localSteamID=0
+[04:48:48.914] SteamNetworking: localSteamID is 0, skipping network init (offline mode)
+[04:48:48.914] STEP 3: Network init result=1
+[04:48:48.914] STEP 3: Network initialized OK
+[04:48:48.914] STEP 3: Starting network role: HOST
+[04:48:48.914] STEP 3: StartHost returned: false
+[04:48:48.914] STEP 3: Network role start failed, cleaning up network
+[04:48:48.914] STEP DONE: Mod initialized successfully (hooks=OK, overlay=OK, network=FAIL, version=1.6.2), waiting for game session...
+[04:48:48.914] InitializeMod: mod initialized successfully, starting update thread
+[04:48:48.914] Update thread started
+[04:48:52.598] HOOK TRIGGERED: EndlessStart (first call)
+
+=== FrostMP Log Started: Sat Nov 14 04:48:56 2026
+[04:48:56.935] Mod Initialize: localSteamID=0, role=1, hostSteamID=0
+[04:48:56.935] STEP 0: Verifying game version...
+[04:48:56.935] STEP 0: exePath=C:\Program Files (x86)\Steam\steamapps\common\Frostpunk\Frostpunk.exe
+[04:48:56.969] STEP 0: Game executable SHA256: 031dbfe529256b7bf532aa11bfaf8ef75ef0618aa0492a970e532566342ba19d
+[04:48:56.969] STEP 0: Game version verified: 1.6.2
+[04:48:56.969] STEP 1: Installing game hooks...
+[04:48:56.969] InstallCallbackHook: ChangeResource at 0x7FF665965880, prologueSize=34
+[04:48:57.7] InstallCallbackHook: Installed ChangeResource at 0x7FF665965880 (trampoline=0000028FEBC60000, detour=0000028FEBC70000)
+[04:48:57.7] HookGameFunctions: Installed ChangeResource (RVA 0xE55880)
+[04:48:57.7] InstallCallbackHook: PauseRemoveReason at 0x7FF665D1A4E0, prologueSize=39
+[04:48:57.45] InstallCallbackHook: Installed PauseRemoveReason at 0x7FF665D1A4E0 (trampoline=0000028FEBC80000, detour=0000028FEBC90000)
+[04:48:57.45] HookGameFunctions: Installed PauseRemoveReason (RVA 0x120A4E0)
+[04:48:57.45] InstallCallbackHook: NativeSave at 0x7FF6661B2850, prologueSize=32
+[04:48:57.82] InstallCallbackHook: Installed NativeSave at 0x7FF6661B2850 (trampoline=0000028FEBCA0000, detour=0000028FEBCB0000)
+[04:48:57.82] HookGameFunctions: Installed NativeSave (RVA 0x16A2850)
+[04:48:57.82] InstallCallbackHook: EndlessStart at 0x7FF6658DDA00, prologueSize=33
+[04:48:57.119] InstallCallbackHook: Installed EndlessStart at 0x7FF6658DDA00 (trampoline=0000028FEBCC0000, detour=0000028FEBCD0000)
+[04:48:57.119] HookGameFunctions: Installed EndlessStart (RVA 0xDCDA00)
+[04:48:57.119] HookGameFunctions: hooksInstalled_=1 (critical hooks OK=1)
+[04:48:57.119] STEP 1: HookGameFunctions done, hooksInstalled_=1
+[04:48:57.119] STEP 1: Game hooks installed OK
+[04:48:57.119] STEP 2: Initializing overlay...
+[04:48:57.119] Initialize called
+[04:48:57.119] Shared memory created: OK
+[04:48:57.119] Game window not found, using screen size: 2560x1440
+[04:48:57.134] Overlay window setup complete
+[04:48:57.134] Overlay window created: 00000000122F0B2E
+[04:48:57.134] STEP 2: Overlay init result=1
+[04:48:57.134] STEP 2: Overlay initialized OK
+[04:48:57.134] STEP 2: Reader/writer initialization deferred until in-game
+[04:48:57.134] STEP 3: Initializing network...
+[04:48:57.134] SteamNetworking: Initialize called, localSteamID=0
+[04:48:57.134] SteamNetworking: localSteamID is 0, skipping network init (offline mode)
+[04:48:57.134] STEP 3: Network init result=1
+[04:48:57.134] STEP 3: Network initialized OK
+[04:48:57.134] STEP 3: Starting network role: HOST
+[04:48:57.134] STEP 3: StartHost returned: false
+[04:48:57.134] STEP 3: Network role start failed, cleaning up network
+[04:48:57.134] STEP DONE: Mod initialized successfully (hooks=OK, overlay=OK, network=FAIL, version=1.6.2), waiting for game session...
+[04:48:57.134] InitializeMod: mod initialized successfully, starting update thread
+[04:48:57.134] Update thread started
+[04:49:00.736] HOOK TRIGGERED: EndlessStart (first call)
+
+=== FrostMP Log Started: Sat Nov 14 05:04:30 2026
+[05:04:30.21] Mod Initialize: localSteamID=76561199020386575, role=1, hostSteamID=0
+[05:04:30.21] STEP 0: Verifying game version...
+[05:04:30.21] STEP 0: exePath=C:\Program Files (x86)\Steam\steamapps\common\Frostpunk\Frostpunk.exe
+[05:04:30.57] STEP 0: Game executable SHA256: 031dbfe529256b7bf532aa11bfaf8ef75ef0618aa0492a970e532566342ba19d
+[05:04:30.57] STEP 0: Game version verified: 1.6.2
+[05:04:30.57] STEP 1: Installing game hooks...
+[05:04:30.57] InstallCallbackHook: ChangeResource at 0x7FF665965880, prologueSize=34
+[05:04:30.94] InstallCallbackHook: Installed ChangeResource at 0x7FF665965880 (trampoline=0000023A73B70000, detour=0000023A73B80000)
+[05:04:30.94] HookGameFunctions: Installed ChangeResource (RVA 0xE55880)
+[05:04:30.94] InstallCallbackHook: PauseRemoveReason at 0x7FF665D1A4E0, prologueSize=39
+[05:04:30.130] InstallCallbackHook: Installed PauseRemoveReason at 0x7FF665D1A4E0 (trampoline=0000023A73B90000, detour=0000023A73BA0000)
+[05:04:30.130] HookGameFunctions: Installed PauseRemoveReason (RVA 0x120A4E0)
+[05:04:30.130] InstallCallbackHook: NativeSave at 0x7FF6661B2850, prologueSize=32
+[05:04:30.167] InstallCallbackHook: Installed NativeSave at 0x7FF6661B2850 (trampoline=0000023A73BB0000, detour=0000023A73BC0000)
+[05:04:30.167] HookGameFunctions: Installed NativeSave (RVA 0x16A2850)
+[05:04:30.167] InstallCallbackHook: EndlessStart at 0x7FF6658DDA00, prologueSize=33
+[05:04:30.211] InstallCallbackHook: Installed EndlessStart at 0x7FF6658DDA00 (trampoline=0000023A73BD0000, detour=0000023A73BE0000)
+[05:04:30.211] HookGameFunctions: Installed EndlessStart (RVA 0xDCDA00)
+[05:04:30.211] HookGameFunctions: hooksInstalled_=1 (critical hooks OK=1)
+[05:04:30.211] STEP 1: HookGameFunctions done, hooksInstalled_=1
+[05:04:30.211] STEP 1: Game hooks installed OK
+[05:04:30.211] STEP 2: Initializing overlay...
+[05:04:30.211] Initialize called
+[05:04:30.211] Shared memory created: OK
+[05:04:30.211] Game window not found, using screen size: 2560x1440
+[05:04:30.228] Overlay window setup complete
+[05:04:30.228] Overlay window created: 00000000006D0792
+[05:04:30.228] STEP 2: Overlay init result=1
+[05:04:30.228] STEP 2: Overlay initialized OK
+[05:04:30.228] STEP 2: Reader/writer initialization deferred until in-game
+[05:04:30.228] STEP 3: Initializing network...
+[05:04:30.228] SteamNetworking: Initialize called, localSteamID=76561199020386575
+[05:04:30.234] SteamNetworking: Loaded steamnetworkingsockets.dll: 00007FFAD4600000
+[05:04:30.234] SteamNetworking: SteamInternal_CreateInterface = 00007FFB5E7386C0
+[05:04:30.234] SteamNetworking: SteamInternal_CreateInterface(SteamNetworkingSockets012) returned 0000000000000000 (ret=0)
+[05:04:30.234] SteamNetworking: SteamInternal_CreateInterface(SteamNetworkingSockets011) returned 0000000000000000 (ret=0)
+[05:04:30.234] SteamNetworking: SteamNetworkingSockets_LibV12 = 00007FFAD467FC40
+[05:04:30.234] SteamNetworking: SteamNetworkingSockets_SetEnvironmentVariable = 00007FFAD467FC50
+[05:04:30.234] SteamNetworking: Set P2P environment variables
+[05:04:30.234] SteamNetworking: SteamNetworkingSockets_SetServiceThreadInitCallback = 00007FFAD46D1480
+[05:04:30.234] SteamNetworking: Set service thread init callback
+[05:04:30.234] SteamNetworking: SteamNetworkingSockets_LibV12() returned 0000000000000000
+[05:04:30.234] SteamNetworking: Trying SteamAPI_GetISteamNetworkingSockets (game already initialized Steam)...
+[05:04:30.234] SteamNetworking: SteamAPI_GetISteamNetworkingSockets = 0000000000000000
+[05:04:30.234] SteamNetworking: SteamDatagramClient_Init = 00007FFAD467F920 (trying as last resort)
+[05:04:30.234] SteamNetworking: Calling SteamDatagramClient_Init() with timeout...
+
+=== FrostMP Log Started: Sat Nov 14 05:04:38 2026
+[05:04:38.837] Mod Initialize: localSteamID=76561199020386575, role=1, hostSteamID=0
+[05:04:38.837] STEP 0: Verifying game version...
+[05:04:38.837] STEP 0: exePath=C:\Program Files (x86)\Steam\steamapps\common\Frostpunk\Frostpunk.exe
+[05:04:38.872] STEP 0: Game executable SHA256: 031dbfe529256b7bf532aa11bfaf8ef75ef0618aa0492a970e532566342ba19d
+[05:04:38.872] STEP 0: Game version verified: 1.6.2
+[05:04:38.872] STEP 1: Installing game hooks...
+[05:04:38.872] InstallCallbackHook: ChangeResource at 0x7FF665965880, prologueSize=34
+[05:04:38.910] InstallCallbackHook: Installed ChangeResource at 0x7FF665965880 (trampoline=0000017A41D80000, detour=0000017A41D90000)
+[05:04:38.910] HookGameFunctions: Installed ChangeResource (RVA 0xE55880)
+[05:04:38.910] InstallCallbackHook: PauseRemoveReason at 0x7FF665D1A4E0, prologueSize=39
+[05:04:38.951] InstallCallbackHook: Installed PauseRemoveReason at 0x7FF665D1A4E0 (trampoline=0000017A41DA0000, detour=0000017A41DB0000)
+[05:04:38.951] HookGameFunctions: Installed PauseRemoveReason (RVA 0x120A4E0)
+[05:04:38.951] InstallCallbackHook: NativeSave at 0x7FF6661B2850, prologueSize=32
+[05:04:38.998] InstallCallbackHook: Installed NativeSave at 0x7FF6661B2850 (trampoline=0000017A41DC0000, detour=0000017A41DD0000)
+[05:04:38.998] HookGameFunctions: Installed NativeSave (RVA 0x16A2850)
+[05:04:38.998] InstallCallbackHook: EndlessStart at 0x7FF6658DDA00, prologueSize=33
+[05:04:39.39] InstallCallbackHook: Installed EndlessStart at 0x7FF6658DDA00 (trampoline=0000017A41DE0000, detour=0000017A41DF0000)
+[05:04:39.39] HookGameFunctions: Installed EndlessStart (RVA 0xDCDA00)
+[05:04:39.39] HookGameFunctions: hooksInstalled_=1 (critical hooks OK=1)
+[05:04:39.39] STEP 1: HookGameFunctions done, hooksInstalled_=1
+[05:04:39.39] STEP 1: Game hooks installed OK
+[05:04:39.39] STEP 2: Initializing overlay...
+[05:04:39.39] Initialize called
+[05:04:39.39] Shared memory created: OK
+[05:04:39.39] Game window not found, using screen size: 2560x1440
+[05:04:39.55] Overlay window setup complete
+[05:04:39.55] Overlay window created: 0000000009470526
+[05:04:39.55] STEP 2: Overlay init result=1
+[05:04:39.55] STEP 2: Overlay initialized OK
+[05:04:39.55] STEP 2: Reader/writer initialization deferred until in-game
+[05:04:39.55] STEP 3: Initializing network...
+[05:04:39.55] SteamNetworking: Initialize called, localSteamID=76561199020386575
+[05:04:39.60] SteamNetworking: Loaded steamnetworkingsockets.dll: 00007FFAD4600000
+[05:04:39.60] SteamNetworking: SteamInternal_CreateInterface = 00007FFB333786C0
+[05:04:39.60] SteamNetworking: SteamInternal_CreateInterface(SteamNetworkingSockets012) returned 0000000000000000 (ret=0)
+[05:04:39.60] SteamNetworking: SteamInternal_CreateInterface(SteamNetworkingSockets011) returned 0000000000000000 (ret=0)
+[05:04:39.60] SteamNetworking: SteamNetworkingSockets_LibV12 = 00007FFAD467FC40
+[05:04:39.60] SteamNetworking: SteamNetworkingSockets_SetEnvironmentVariable = 00007FFAD467FC50
+[05:04:39.60] SteamNetworking: Set P2P environment variables
+[05:04:39.60] SteamNetworking: SteamNetworkingSockets_SetServiceThreadInitCallback = 00007FFAD46D1480
+[05:04:39.60] SteamNetworking: Set service thread init callback
+[05:04:39.60] SteamNetworking: SteamNetworkingSockets_LibV12() returned 0000000000000000
+[05:04:39.60] SteamNetworking: Trying SteamAPI_GetISteamNetworkingSockets (game already initialized Steam)...
+[05:04:39.60] SteamNetworking: SteamAPI_GetISteamNetworkingSockets = 0000000000000000
+[05:04:39.61] SteamNetworking: SteamDatagramClient_Init = 00007FFAD467F920 (trying as last resort)
+[05:04:39.61] SteamNetworking: Calling SteamDatagramClient_Init() with timeout...
+
+=== FrostMP Log Started: Sat Nov 14 05:13:37 2026
+[05:13:37.337] Mod Initialize: localSteamID=76561199020386575, role=1, hostSteamID=0
+[05:13:37.337] STEP 0: Verifying game version...
+[05:13:37.337] STEP 0: exePath=C:\Program Files (x86)\Steam\steamapps\common\Frostpunk\Frostpunk.exe
+[05:13:37.370] STEP 0: Game executable SHA256: 031dbfe529256b7bf532aa11bfaf8ef75ef0618aa0492a970e532566342ba19d
+[05:13:37.370] STEP 0: Game version verified: 1.6.2
+[05:13:37.370] STEP 1: Installing game hooks...
+[05:13:37.370] InstallCallbackHook: ChangeResource at 0x7FF665965880, prologueSize=34
+[05:13:37.415] InstallCallbackHook: Installed ChangeResource at 0x7FF665965880 (trampoline=0000023D65210000, detour=0000023D65220000)
+[05:13:37.415] HookGameFunctions: Installed ChangeResource (RVA 0xE55880)
+[05:13:37.415] InstallCallbackHook: PauseRemoveReason at 0x7FF665D1A4E0, prologueSize=39
+[05:13:37.457] InstallCallbackHook: Installed PauseRemoveReason at 0x7FF665D1A4E0 (trampoline=0000023D65230000, detour=0000023D65240000)
+[05:13:37.457] HookGameFunctions: Installed PauseRemoveReason (RVA 0x120A4E0)
+[05:13:37.457] InstallCallbackHook: NativeSave at 0x7FF6661B2850, prologueSize=32
+[05:13:37.499] InstallCallbackHook: Installed NativeSave at 0x7FF6661B2850 (trampoline=0000023D65250000, detour=0000023D65260000)
+[05:13:37.500] HookGameFunctions: Installed NativeSave (RVA 0x16A2850)
+[05:13:37.500] InstallCallbackHook: EndlessStart at 0x7FF6658DDA00, prologueSize=33
+[05:13:37.547] InstallCallbackHook: Installed EndlessStart at 0x7FF6658DDA00 (trampoline=0000023D65270000, detour=0000023D65280000)
+[05:13:37.547] HookGameFunctions: Installed EndlessStart (RVA 0xDCDA00)
+[05:13:37.547] HookGameFunctions: hooksInstalled_=1 (critical hooks OK=1)
+[05:13:37.547] STEP 1: HookGameFunctions done, hooksInstalled_=1
+[05:13:37.547] STEP 1: Game hooks installed OK
+[05:13:37.547] STEP 2: Initializing overlay...
+[05:13:37.547] Initialize called
+[05:13:37.547] Shared memory created: OK
+[05:13:37.547] Game window not found, using screen size: 2560x1440
+[05:13:37.564] Overlay window setup complete
+[05:13:37.564] Overlay window created: 00000000000C0CCA
+[05:13:37.564] STEP 2: Overlay init result=1
+[05:13:37.564] STEP 2: Overlay initialized OK
+[05:13:37.564] STEP 2: Reader/writer initialization deferred until in-game
+[05:13:37.564] STEP 3: Initializing network...
+[05:13:37.564] SteamNetworking: Initialize called, localSteamID=76561199020386575
+[05:13:37.569] SteamNetworking: Loaded steamnetworkingsockets.dll: 00007FFACC080000
+[05:13:37.569] SteamNetworking: SteamInternal_CreateInterface = 00007FFB33E686C0
+[05:13:37.569] SteamNetworking: SteamInternal_CreateInterface(SteamNetworkingSockets012) returned 0000000000000000 (ret=0)
+[05:13:37.569] SteamNetworking: SteamInternal_CreateInterface(SteamNetworkingSockets011) returned 0000000000000000 (ret=0)
+[05:13:37.569] SteamNetworking: SteamNetworkingSockets_LibV12 = 00007FFACC0FFC40
+[05:13:37.569] SteamNetworking: SteamNetworkingSockets_SetEnvironmentVariable = 00007FFACC0FFC50
+[05:13:37.569] SteamNetworking: Set P2P environment variables
+[05:13:37.569] SteamNetworking: SteamNetworkingSockets_SetServiceThreadInitCallback = 00007FFACC151480
+[05:13:37.569] SteamNetworking: Set service thread init callback
+[05:13:37.569] SteamNetworking: SteamNetworkingSockets_LibV12() returned 0000000000000000
+[05:13:37.569] SteamNetworking: Trying SteamAPI_GetISteamNetworkingSockets (game already initialized Steam)...
+[05:13:37.569] SteamNetworking: SteamAPI_GetISteamNetworkingSockets = 0000000000000000
+[05:13:37.569] SteamNetworking: SteamDatagramClient_Init = 00007FFACC0FF920 (trying as last resort)
+[05:13:37.569] SteamNetworking: Calling SteamDatagramClient_Init() with timeout...
+
+=== FrostMP Log Started: Sat Nov 14 05:13:44 2026
+[05:13:44.267] Mod Initialize: localSteamID=76561199020386575, role=1, hostSteamID=0
+[05:13:44.267] STEP 0: Verifying game version...
+[05:13:44.267] STEP 0: exePath=C:\Program Files (x86)\Steam\steamapps\common\Frostpunk\Frostpunk.exe
+[05:13:44.301] STEP 0: Game executable SHA256: 031dbfe529256b7bf532aa11bfaf8ef75ef0618aa0492a970e532566342ba19d
+[05:13:44.301] STEP 0: Game version verified: 1.6.2
+[05:13:44.301] STEP 1: Installing game hooks...
+[05:13:44.301] InstallCallbackHook: ChangeResource at 0x7FF665965880, prologueSize=34
+[05:13:44.344] InstallCallbackHook: Installed ChangeResource at 0x7FF665965880 (trampoline=000001EA650C0000, detour=000001EA650D0000)
+[05:13:44.344] HookGameFunctions: Installed ChangeResource (RVA 0xE55880)
+[05:13:44.344] InstallCallbackHook: PauseRemoveReason at 0x7FF665D1A4E0, prologueSize=39
+[05:13:44.387] InstallCallbackHook: Installed PauseRemoveReason at 0x7FF665D1A4E0 (trampoline=000001EA650E0000, detour=000001EA650F0000)
+[05:13:44.387] HookGameFunctions: Installed PauseRemoveReason (RVA 0x120A4E0)
+[05:13:44.387] InstallCallbackHook: NativeSave at 0x7FF6661B2850, prologueSize=32
+[05:13:44.436] InstallCallbackHook: Installed NativeSave at 0x7FF6661B2850 (trampoline=000001EA65100000, detour=000001EA65110000)
+[05:13:44.436] HookGameFunctions: Installed NativeSave (RVA 0x16A2850)
+[05:13:44.436] InstallCallbackHook: EndlessStart at 0x7FF6658DDA00, prologueSize=33
+[05:13:44.479] InstallCallbackHook: Installed EndlessStart at 0x7FF6658DDA00 (trampoline=000001EA65120000, detour=000001EA65130000)
+[05:13:44.479] HookGameFunctions: Installed EndlessStart (RVA 0xDCDA00)
+[05:13:44.479] HookGameFunctions: hooksInstalled_=1 (critical hooks OK=1)
+[05:13:44.479] STEP 1: HookGameFunctions done, hooksInstalled_=1
+[05:13:44.479] STEP 1: Game hooks installed OK
+[05:13:44.479] STEP 2: Initializing overlay...
+[05:13:44.479] Initialize called
+[05:13:44.480] Shared memory created: OK
+[05:13:44.480] Game window not found, using screen size: 2560x1440
+[05:13:44.501] Overlay window setup complete
+[05:13:44.501] Overlay window created: 00000000001F09A6
+[05:13:44.501] STEP 2: Overlay init result=1
+[05:13:44.501] STEP 2: Overlay initialized OK
+[05:13:44.501] STEP 2: Reader/writer initialization deferred until in-game
+[05:13:44.501] STEP 3: Initializing network...
+[05:13:44.501] SteamNetworking: Initialize called, localSteamID=76561199020386575
+[05:13:44.507] SteamNetworking: Loaded steamnetworkingsockets.dll: 00007FFACC080000
+[05:13:44.507] SteamNetworking: SteamInternal_CreateInterface = 00007FFB33AC86C0
+[05:13:44.507] SteamNetworking: SteamInternal_CreateInterface(SteamNetworkingSockets012) returned 0000000000000000 (ret=0)
+[05:13:44.507] SteamNetworking: SteamInternal_CreateInterface(SteamNetworkingSockets011) returned 0000000000000000 (ret=0)
+[05:13:44.507] SteamNetworking: SteamNetworkingSockets_LibV12 = 00007FFACC0FFC40
+[05:13:44.507] SteamNetworking: SteamNetworkingSockets_SetEnvironmentVariable = 00007FFACC0FFC50
+[05:13:44.507] SteamNetworking: Set P2P environment variables
+[05:13:44.507] SteamNetworking: SteamNetworkingSockets_SetServiceThreadInitCallback = 00007FFACC151480
+[05:13:44.507] SteamNetworking: Set service thread init callback
+[05:13:44.507] SteamNetworking: SteamNetworkingSockets_LibV12() returned 0000000000000000
+[05:13:44.507] SteamNetworking: Trying SteamAPI_GetISteamNetworkingSockets (game already initialized Steam)...
+[05:13:44.507] SteamNetworking: SteamAPI_GetISteamNetworkingSockets = 0000000000000000
+[05:13:44.507] SteamNetworking: SteamDatagramClient_Init = 00007FFACC0FF920 (trying as last resort)
+[05:13:44.507] SteamNetworking: Calling SteamDatagramClient_Init() with timeout...
+
+=== FrostMP Log Started: Sat Nov 14 05:21:37 2026
+[05:21:37.549] Mod Initialize: localSteamID=76561199020386575, role=1, hostSteamID=0
+[05:21:37.549] STEP 0: Verifying game version...
+[05:21:37.549] STEP 0: exePath=C:\Program Files (x86)\Steam\steamapps\common\Frostpunk\Frostpunk.exe
+[05:21:37.583] STEP 0: Game executable SHA256: 031dbfe529256b7bf532aa11bfaf8ef75ef0618aa0492a970e532566342ba19d
+[05:21:37.583] STEP 0: Game version verified: 1.6.2
+[05:21:37.583] STEP 1: Installing game hooks...
+[05:21:37.583] InstallCallbackHook: ChangeResource at 0x7FF665965880, prologueSize=34
+[05:21:37.636] InstallCallbackHook: Installed ChangeResource at 0x7FF665965880 (trampoline=0000029BD3CE0000, detour=0000029BD3CF0000)
+[05:21:37.636] HookGameFunctions: Installed ChangeResource (RVA 0xE55880)
+[05:21:37.636] InstallCallbackHook: PauseRemoveReason at 0x7FF665D1A4E0, prologueSize=39
+[05:21:37.680] InstallCallbackHook: Installed PauseRemoveReason at 0x7FF665D1A4E0 (trampoline=0000029BD3D00000, detour=0000029BD3D10000)
+[05:21:37.680] HookGameFunctions: Installed PauseRemoveReason (RVA 0x120A4E0)
+[05:21:37.680] InstallCallbackHook: NativeSave at 0x7FF6661B2850, prologueSize=32
+[05:21:37.728] InstallCallbackHook: Installed NativeSave at 0x7FF6661B2850 (trampoline=0000029BD3D20000, detour=0000029BD3D30000)
+[05:21:37.728] HookGameFunctions: Installed NativeSave (RVA 0x16A2850)
+[05:21:37.728] InstallCallbackHook: EndlessStart at 0x7FF6658DDA00, prologueSize=33
+[05:21:37.771] InstallCallbackHook: Installed EndlessStart at 0x7FF6658DDA00 (trampoline=0000029BD3D40000, detour=0000029BD3D50000)
+[05:21:37.771] HookGameFunctions: Installed EndlessStart (RVA 0xDCDA00)
+[05:21:37.771] HookGameFunctions: hooksInstalled_=1 (critical hooks OK=1)
+[05:21:37.771] STEP 1: HookGameFunctions done, hooksInstalled_=1
+[05:21:37.771] STEP 1: Game hooks installed OK
+[05:21:37.771] STEP 2: Initializing overlay...
+[05:21:37.771] Initialize called
+[05:21:37.772] Shared memory created: OK
+[05:21:37.772] Game window not found, using screen size: 2560x1440
+[05:21:37.791] Overlay window setup complete
+[05:21:37.791] Overlay window created: 0000000000B10810
+[05:21:37.791] STEP 2: Overlay init result=1
+[05:21:37.791] STEP 2: Overlay initialized OK
+[05:21:37.791] STEP 2: Reader/writer initialization deferred until in-game
+[05:21:37.791] STEP 3: Initializing network...
+[05:21:37.791] SteamNetworking: Initialize called, localSteamID=76561199020386575
+[05:21:37.796] SteamNetworking: Loaded steamnetworkingsockets.dll: 00007FFA7A160000
+[05:21:37.796] SteamNetworking: SteamInternal_CreateInterface = 00007FFB340286C0
+[05:21:37.796] SteamNetworking: SteamInternal_CreateInterface(SteamNetworkingSockets012) returned 0000000000000000 (ret=0)
+[05:21:37.796] SteamNetworking: SteamInternal_CreateInterface(SteamNetworkingSockets011) returned 0000000000000000 (ret=0)
+[05:21:37.796] SteamNetworking: SteamNetworkingSockets_LibV12 = 00007FFA7A1DFC40
+[05:21:37.796] SteamNetworking: SteamNetworkingSockets_SetEnvironmentVariable = 00007FFA7A1DFC50
+[05:21:37.796] SteamNetworking: Set P2P environment variables
+[05:21:37.796] SteamNetworking: SteamNetworkingSockets_SetServiceThreadInitCallback = 00007FFA7A231480
+[05:21:37.797] SteamNetworking: Set service thread init callback
+[05:21:37.797] SteamNetworking: SteamNetworkingSockets_LibV12() returned 0000000000000000
+[05:21:37.797] SteamNetworking: Trying SteamAPI_GetISteamNetworkingSockets (game already initialized Steam)...
+[05:21:37.797] SteamNetworking: SteamAPI_GetISteamNetworkingSockets = 0000000000000000
+[05:21:37.797] SteamNetworking: SteamDatagramClient_Init = 00007FFA7A1DF920 (trying as last resort)
+[05:21:37.797] SteamNetworking: Calling SteamDatagramClient_Init() with timeout...
+
+=== FrostMP Log Started: Sat Nov 14 05:21:44 2026
+[05:21:44.937] Mod Initialize: localSteamID=76561199020386575, role=1, hostSteamID=0
+[05:21:44.937] STEP 0: Verifying game version...
+[05:21:44.937] STEP 0: exePath=C:\Program Files (x86)\Steam\steamapps\common\Frostpunk\Frostpunk.exe
+[05:21:44.971] STEP 0: Game executable SHA256: 031dbfe529256b7bf532aa11bfaf8ef75ef0618aa0492a970e532566342ba19d
+[05:21:44.971] STEP 0: Game version verified: 1.6.2
+[05:21:44.971] STEP 1: Installing game hooks...
+[05:21:44.971] InstallCallbackHook: ChangeResource at 0x7FF665965880, prologueSize=34
+[05:21:45.19] InstallCallbackHook: Installed ChangeResource at 0x7FF665965880 (trampoline=000001B360710000, detour=000001B360720000)
+[05:21:45.19] HookGameFunctions: Installed ChangeResource (RVA 0xE55880)
+[05:21:45.19] InstallCallbackHook: PauseRemoveReason at 0x7FF665D1A4E0, prologueSize=39
+[05:21:45.68] InstallCallbackHook: Installed PauseRemoveReason at 0x7FF665D1A4E0 (trampoline=000001B360730000, detour=000001B360740000)
+[05:21:45.68] HookGameFunctions: Installed PauseRemoveReason (RVA 0x120A4E0)
+[05:21:45.68] InstallCallbackHook: NativeSave at 0x7FF6661B2850, prologueSize=32
+[05:21:45.113] InstallCallbackHook: Installed NativeSave at 0x7FF6661B2850 (trampoline=000001B360750000, detour=000001B360760000)
+[05:21:45.113] HookGameFunctions: Installed NativeSave (RVA 0x16A2850)
+[05:21:45.113] InstallCallbackHook: EndlessStart at 0x7FF6658DDA00, prologueSize=33
+[05:21:45.159] InstallCallbackHook: Installed EndlessStart at 0x7FF6658DDA00 (trampoline=000001B360770000, detour=000001B360780000)
+[05:21:45.159] HookGameFunctions: Installed EndlessStart (RVA 0xDCDA00)
+[05:21:45.159] HookGameFunctions: hooksInstalled_=1 (critical hooks OK=1)
+[05:21:45.159] STEP 1: HookGameFunctions done, hooksInstalled_=1
+[05:21:45.159] STEP 1: Game hooks installed OK
+[05:21:45.159] STEP 2: Initializing overlay...
+[05:21:45.159] Initialize called
+[05:21:45.159] Shared memory created: OK
+[05:21:45.160] Game window not found, using screen size: 2560x1440
+[05:21:45.175] Overlay window setup complete
+[05:21:45.175] Overlay window created: 000000000195094E
+[05:21:45.175] STEP 2: Overlay init result=1
+[05:21:45.175] STEP 2: Overlay initialized OK
+[05:21:45.175] STEP 2: Reader/writer initialization deferred until in-game
+[05:21:45.175] STEP 3: Initializing network...
+[05:21:45.175] SteamNetworking: Initialize called, localSteamID=76561199020386575
+[05:21:45.180] SteamNetworking: Loaded steamnetworkingsockets.dll: 00007FFA79CC0000
+[05:21:45.180] SteamNetworking: SteamInternal_CreateInterface = 00007FFA9B1886C0
+[05:21:45.180] SteamNetworking: SteamInternal_CreateInterface(SteamNetworkingSockets012) returned 0000000000000000 (ret=0)
+[05:21:45.180] SteamNetworking: SteamInternal_CreateInterface(SteamNetworkingSockets011) returned 0000000000000000 (ret=0)
+[05:21:45.180] SteamNetworking: SteamNetworkingSockets_LibV12 = 00007FFA79D3FC40
+[05:21:45.180] SteamNetworking: SteamNetworkingSockets_SetEnvironmentVariable = 00007FFA79D3FC50
+[05:21:45.181] SteamNetworking: Set P2P environment variables
+[05:21:45.181] SteamNetworking: SteamNetworkingSockets_SetServiceThreadInitCallback = 00007FFA79D91480
+[05:21:45.181] SteamNetworking: Set service thread init callback
+[05:21:45.181] SteamNetworking: SteamNetworkingSockets_LibV12() returned 0000000000000000
+[05:21:45.181] SteamNetworking: Trying SteamAPI_GetISteamNetworkingSockets (game already initialized Steam)...
+[05:21:45.181] SteamNetworking: SteamAPI_GetISteamNetworkingSockets = 0000000000000000
+[05:21:45.181] SteamNetworking: SteamDatagramClient_Init = 00007FFA79D3F920 (trying as last resort)
+[05:21:45.181] SteamNetworking: Calling SteamDatagramClient_Init() with timeout...
+
+=== FrostMP Log Started: Sat Nov 14 05:32:09 2026
+[05:32:09.223] Mod Initialize: localSteamID=76561199020386575, role=1, hostSteamID=0
+[05:32:09.223] STEP 0: Verifying game version...
+[05:32:09.224] STEP 0: exePath=C:\Program Files (x86)\Steam\steamapps\common\Frostpunk\Frostpunk.exe
+[05:32:09.259] STEP 0: Game executable SHA256: 031dbfe529256b7bf532aa11bfaf8ef75ef0618aa0492a970e532566342ba19d
+[05:32:09.259] STEP 0: Game version verified: 1.6.2
+[05:32:09.259] STEP 1: Installing game hooks...
+[05:32:09.259] InstallCallbackHook: ChangeResource at 0x7FF665965880, prologueSize=34
+[05:32:09.302] InstallCallbackHook: Installed ChangeResource at 0x7FF665965880 (trampoline=0000021DC8AC0000, detour=0000021DC8AD0000)
+[05:32:09.302] HookGameFunctions: Installed ChangeResource (RVA 0xE55880)
+[05:32:09.303] InstallCallbackHook: PauseRemoveReason at 0x7FF665D1A4E0, prologueSize=39
+[05:32:09.348] InstallCallbackHook: Installed PauseRemoveReason at 0x7FF665D1A4E0 (trampoline=0000021DC8AE0000, detour=0000021DC8AF0000)
+[05:32:09.348] HookGameFunctions: Installed PauseRemoveReason (RVA 0x120A4E0)
+[05:32:09.348] InstallCallbackHook: NativeSave at 0x7FF6661B2850, prologueSize=32
+[05:32:09.395] InstallCallbackHook: Installed NativeSave at 0x7FF6661B2850 (trampoline=0000021DC8B00000, detour=0000021DC8B10000)
+[05:32:09.395] HookGameFunctions: Installed NativeSave (RVA 0x16A2850)
+[05:32:09.395] InstallCallbackHook: EndlessStart at 0x7FF6658DDA00, prologueSize=33
+[05:32:09.438] InstallCallbackHook: Installed EndlessStart at 0x7FF6658DDA00 (trampoline=0000021DC8B20000, detour=0000021DC8B30000)
+[05:32:09.438] HookGameFunctions: Installed EndlessStart (RVA 0xDCDA00)
+[05:32:09.438] HookGameFunctions: hooksInstalled_=1 (critical hooks OK=1)
+[05:32:09.438] STEP 1: HookGameFunctions done, hooksInstalled_=1
+[05:32:09.438] STEP 1: Game hooks installed OK
+[05:32:09.438] STEP 2: Initializing overlay...
+[05:32:09.438] Initialize called
+[05:32:09.438] Shared memory created: OK
+[05:32:09.438] Game window not found, using screen size: 2560x1440
+[05:32:09.462] Overlay window setup complete
+[05:32:09.462] Overlay window created: 0000000001E0086E
+[05:32:09.462] STEP 2: Overlay init result=1
+[05:32:09.462] STEP 2: Overlay initialized OK
+[05:32:09.462] STEP 2: Reader/writer initialization deferred until in-game
+[05:32:09.462] STEP 3: Initializing network...
+[05:32:09.462] SteamNetworking: Initialize called, localSteamID=76561199020386575
+[05:32:09.468] SteamNetworking: Loaded steamnetworkingsockets.dll: 00007FFACC080000
+[05:32:09.468] SteamNetworking: SteamInternal_CreateInterface = 00007FFB341B86C0
+[05:32:09.468] SteamNetworking: SteamInternal_CreateInterface(SteamNetworkingSockets012) returned 0000000000000000 (ret=0)
+[05:32:09.468] SteamNetworking: SteamInternal_CreateInterface(SteamNetworkingSockets011) returned 0000000000000000 (ret=0)
+[05:32:09.468] SteamNetworking: SteamNetworkingSockets_LibV12 = 00007FFACC0FFC40
+[05:32:09.468] SteamNetworking: SteamNetworkingSockets_SetEnvironmentVariable = 00007FFACC0FFC50
+[05:32:09.468] SteamNetworking: Set P2P environment variables
+[05:32:09.468] SteamNetworking: SteamNetworkingSockets_SetServiceThreadInitCallback = 00007FFACC151480
+[05:32:09.468] SteamNetworking: Set service thread init callback
+[05:32:09.468] SteamNetworking: SteamNetworkingSockets_LibV12() returned 0000000000000000
+[05:32:09.468] SteamNetworking: Trying SteamAPI_GetISteamNetworkingSockets (game already initialized Steam)...
+[05:32:09.468] SteamNetworking: SteamAPI_GetISteamNetworkingSockets = 0000000000000000
+[05:32:09.468] SteamNetworking: SteamDatagramClient_Init = 00007FFACC0FF920 (trying as last resort)
+[05:32:09.468] SteamNetworking: Calling SteamDatagramClient_Init() with timeout...
+
+=== FrostMP Log Started: Sat Nov 14 05:47:56 2026
+[05:47:56.253] Mod Initialize: localSteamID=76561199020386575, role=1, hostSteamID=0
+[05:47:56.253] STEP 0: Verifying game version...
+[05:47:56.253] STEP 0: exePath=C:\Program Files (x86)\Steam\steamapps\common\Frostpunk\Frostpunk.exe
+[05:47:56.290] STEP 0: Game executable SHA256: 031dbfe529256b7bf532aa11bfaf8ef75ef0618aa0492a970e532566342ba19d
+[05:47:56.290] STEP 0: Game version verified: 1.6.2
+[05:47:56.290] STEP 1: Installing game hooks...
+[05:47:56.290] InstallCallbackHook: ChangeResource at 0x7FF665965880, prologueSize=34
+[05:47:56.335] InstallCallbackHook: Installed ChangeResource at 0x7FF665965880 (trampoline=000001E85DFA0000, detour=000001E85DFB0000)
+[05:47:56.335] HookGameFunctions: Installed ChangeResource (RVA 0xE55880)
+[05:47:56.336] InstallCallbackHook: PauseRemoveReason at 0x7FF665D1A4E0, prologueSize=39
+[05:47:56.392] InstallCallbackHook: Installed PauseRemoveReason at 0x7FF665D1A4E0 (trampoline=000001E85DFC0000, detour=000001E85DFD0000)
+[05:47:56.393] HookGameFunctions: Installed PauseRemoveReason (RVA 0x120A4E0)
+[05:47:56.393] InstallCallbackHook: NativeSave at 0x7FF6661B2850, prologueSize=32
+[05:47:56.455] InstallCallbackHook: Installed NativeSave at 0x7FF6661B2850 (trampoline=000001E85DFE0000, detour=000001E85DFF0000)
+[05:47:56.456] HookGameFunctions: Installed NativeSave (RVA 0x16A2850)
+[05:47:56.456] InstallCallbackHook: EndlessStart at 0x7FF6658DDA00, prologueSize=33
+[05:47:56.498] InstallCallbackHook: Installed EndlessStart at 0x7FF6658DDA00 (trampoline=000001E85E000000, detour=000001E85E010000)
+[05:47:56.498] HookGameFunctions: Installed EndlessStart (RVA 0xDCDA00)
+[05:47:56.498] HookGameFunctions: hooksInstalled_=1 (critical hooks OK=1)
+[05:47:56.499] STEP 1: HookGameFunctions done, hooksInstalled_=1
+[05:47:56.499] STEP 1: Game hooks installed OK
+[05:47:56.499] STEP 2: Initializing overlay...
+[05:47:56.499] Initialize called
+[05:47:56.499] Shared memory created: OK
+[05:47:56.499] Game window not found, using screen size: 2560x1440
+[05:47:56.517] Overlay window setup complete
+[05:47:56.517] Overlay window created: 0000000000200D0E
+[05:47:56.517] STEP 2: Overlay init result=1
+[05:47:56.517] STEP 2: Overlay initialized OK
+[05:47:56.517] STEP 2: Reader/writer initialization deferred until in-game
+[05:47:56.517] STEP 3: Initializing network...
+[05:47:56.517] SteamNetworking: Initialize called, localSteamID=76561199020386575
+[05:47:56.524] SteamNetworking: Loaded steamnetworkingsockets.dll: 00007FFACC080000
+[05:47:56.524] SteamNetworking: SteamInternal_CreateInterface = 00007FFB395A86C0
+[05:47:56.524] SteamNetworking: SteamInternal_CreateInterface(SteamNetworkingSockets012) returned 0000000000000000 (ret=0)
+[05:47:56.524] SteamNetworking: SteamInternal_CreateInterface(SteamNetworkingSockets011) returned 0000000000000000 (ret=0)
+[05:47:56.524] SteamNetworking: SteamNetworkingSockets_LibV12 = 00007FFACC0FFC40
+[05:47:56.524] SteamNetworking: SteamNetworkingSockets_SetEnvironmentVariable = 00007FFACC0FFC50
+[05:47:56.524] SteamNetworking: Set P2P environment variables
+[05:47:56.524] SteamNetworking: SteamNetworkingSockets_SetServiceThreadInitCallback = 00007FFACC151480
+[05:47:56.524] SteamNetworking: Set service thread init callback
+[05:47:56.524] SteamNetworking: SteamNetworkingSockets_LibV12() returned 0000000000000000
+[05:47:56.524] SteamNetworking: Trying SteamAPI_GetISteamNetworkingSockets (game already initialized Steam)...
+[05:47:56.524] SteamNetworking: SteamAPI_GetISteamNetworkingSockets = 0000000000000000
+[05:47:56.524] SteamNetworking: SteamDatagramClient_Init = 00007FFACC0FF920 (trying as last resort)
+[05:47:56.524] SteamNetworking: Calling SteamDatagramClient_Init() with timeout...
+[05:47:56.529] SteamNetworking: SteamDatagramClient_Init() returned false
+[05:47:56.529] SteamNetworking: Failed to get ISteamNetworkingSockets interface - trying SteamAPI_GetISteamNetworkingSockets
+[05:47:56.529] SteamNetworking: SteamAPI_GetISteamNetworkingSockets = 0000000000000000
+[05:47:56.529] SteamNetworking: ALL METHODS FAILED to get ISteamNetworkingSockets interface
+[05:47:56.529] SteamNetworking: steam.Load() failed
+[05:47:56.529] STEP 3: Network init result=0
+[05:47:56.529] STEP 3: Network initialization failed, continuing without networking
+[05:47:56.529] STEP DONE: Mod initialized successfully (hooks=OK, overlay=OK, network=FAIL, version=1.6.2), waiting for game session...
+[05:47:56.529] InitializeMod: mod initialized successfully, starting update thread
+[05:47:56.530] Update thread started
+
+=== FrostMP Log Started: Sat Nov 14 06:00:05 2026
+[06:00:05.781] Mod Initialize: localSteamID=76561199020386575, role=1, hostSteamID=0
+[06:00:05.781] STEP 0: Verifying game version...
+[06:00:05.781] STEP 0: exePath=C:\Program Files (x86)\Steam\steamapps\common\Frostpunk\Frostpunk.exe
+[06:00:05.816] STEP 0: Game executable SHA256: 031dbfe529256b7bf532aa11bfaf8ef75ef0618aa0492a970e532566342ba19d
+[06:00:05.816] STEP 0: Game version verified: 1.6.2
+[06:00:05.816] STEP 1: Installing game hooks...
+[06:00:05.816] InstallCallbackHook: ChangeResource at 0x7FF665965880, prologueSize=34
+[06:00:05.859] InstallCallbackHook: Installed ChangeResource at 0x7FF665965880 (trampoline=0000022866340000, detour=0000022866350000)
+[06:00:05.859] HookGameFunctions: Installed ChangeResource (RVA 0xE55880)
+[06:00:05.860] InstallCallbackHook: PauseRemoveReason at 0x7FF665D1A4E0, prologueSize=39
+[06:00:05.899] InstallCallbackHook: Installed PauseRemoveReason at 0x7FF665D1A4E0 (trampoline=0000022866360000, detour=0000022866370000)
+[06:00:05.899] HookGameFunctions: Installed PauseRemoveReason (RVA 0x120A4E0)
+[06:00:05.900] InstallCallbackHook: NativeSave at 0x7FF6661B2850, prologueSize=32
+[06:00:05.943] InstallCallbackHook: Installed NativeSave at 0x7FF6661B2850 (trampoline=0000022866380000, detour=0000022866390000)
+[06:00:05.944] HookGameFunctions: Installed NativeSave (RVA 0x16A2850)
+[06:00:05.944] InstallCallbackHook: EndlessStart at 0x7FF6658DDA00, prologueSize=33
+[06:00:05.989] InstallCallbackHook: Installed EndlessStart at 0x7FF6658DDA00 (trampoline=00000228663A0000, detour=00000228663B0000)
+[06:00:05.989] HookGameFunctions: Installed EndlessStart (RVA 0xDCDA00)
+[06:00:05.990] HookGameFunctions: hooksInstalled_=1 (critical hooks OK=1)
+[06:00:05.990] STEP 1: HookGameFunctions done, hooksInstalled_=1
+[06:00:05.990] STEP 1: Game hooks installed OK
+[06:00:05.990] STEP 2: Initializing overlay...
+[06:00:05.990] Initialize called
+[06:00:05.990] Shared memory created: OK
+[06:00:05.990] Game window not found, using screen size: 2560x1440
+[06:00:06.8] Overlay window setup complete
+[06:00:06.8] Overlay window created: 0000000000800802
+[06:00:06.8] STEP 2: Overlay init result=1
+[06:00:06.8] STEP 2: Overlay initialized OK
+[06:00:06.8] STEP 2: Reader/writer initialization deferred until in-game
+[06:00:06.8] STEP 3: Initializing network...
+[06:00:06.8] SteamNetworking: Initialize called, localSteamID=76561199020386575
+[06:00:06.13] SteamNetworking: Loaded steamnetworkingsockets.dll: 00007FFACC080000
+[06:00:06.14] SteamNetworking: SteamInternal_CreateInterface = 00007FFB340C86C0
+[06:00:06.14] SteamNetworking: SteamInternal_CreateInterface(SteamNetworkingSockets012) returned 0000000000000000 (ret=0)
+[06:00:06.14] SteamNetworking: SteamInternal_CreateInterface(SteamNetworkingSockets011) returned 0000000000000000 (ret=0)
+[06:00:06.14] SteamNetworking: SteamNetworkingSockets_LibV12 = 00007FFACC0FFC40
+[06:00:06.14] SteamNetworking: SteamNetworkingSockets_SetEnvironmentVariable = 00007FFACC0FFC50
+[06:00:06.14] SteamNetworking: Set P2P environment variables
+[06:00:06.14] SteamNetworking: SteamNetworkingSockets_SetServiceThreadInitCallback = 00007FFACC151480
+[06:00:06.14] SteamNetworking: Set service thread init callback
+[06:00:06.14] SteamNetworking: SteamNetworkingSockets_LibV12() returned 0000000000000000
+[06:00:06.14] SteamNetworking: Trying SteamAPI_GetISteamNetworkingSockets (game already initialized Steam)...
+[06:00:06.14] SteamNetworking: SteamAPI_GetISteamNetworkingSockets = 0000000000000000
+[06:00:06.14] SteamNetworking: SteamDatagramClient_Init = 00007FFACC0FF920 (trying as last resort)
+[06:00:06.14] SteamNetworking: Calling SteamDatagramClient_Init() with timeout...
+[06:00:06.18] SteamNetworking: SteamDatagramClient_Init() returned false
+[06:00:06.18] SteamNetworking: Failed to get ISteamNetworkingSockets interface - trying SteamAPI_GetISteamNetworkingSockets
+[06:00:06.18] SteamNetworking: SteamAPI_GetISteamNetworkingSockets = 0000000000000000
+[06:00:06.18] SteamNetworking: ALL METHODS FAILED to get ISteamNetworkingSockets interface
+[06:00:06.18] SteamNetworking: steam.Load() failed
+[06:00:06.18] STEP 3: Network init result=0
+[06:00:06.18] STEP 3: Network initialization failed, continuing without networking
+[06:00:06.18] STEP DONE: Mod initialized successfully (hooks=OK, overlay=OK, network=FAIL, version=1.6.2), waiting for game session...
+[06:00:06.18] InitializeMod: mod initialized successfully, starting update thread
+[06:00:06.19] Update thread started

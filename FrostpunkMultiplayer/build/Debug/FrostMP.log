@@ -1,0 +1,125 @@
+
+=== FrostMP Log Started: Sat Nov 14 05:35:29 2026
+[05:35:29.710] Launcher Run: argc=1
+[05:35:29.710]   argv[0] = G:\claude_code\FrostpunkMultiplayer\build\Debug\FrostpunkMultiplayerLauncher.exe
+[05:35:29.711] Launcher: multiplayer.ini not found, creating defaults at G:\claude_code\FrostpunkMultiplayer\build\Debug\multiplayer.ini
+[05:35:29.712] Launcher: multiplayer.ini created with defaults
+[05:35:29.713] Launcher: dllPath = G:\claude_code\FrostpunkMultiplayer\build\Debug\FrostMenuMod.dll
+[05:35:29.713] Launcher exception: FrostMenuMod.dll not found next to launcher
+
+=== FrostMP Log Started: Sat Nov 14 05:36:16 2026
+[05:36:16.320] Launcher Run: argc=1
+[05:36:16.320]   argv[0] = G:\claude_code\FrostpunkMultiplayer\build\Debug\FrostpunkMultiplayerLauncher.exe
+[05:36:16.321] Launcher: dllPath = G:\claude_code\FrostpunkMultiplayer\build\Debug\FrostMenuMod.dll
+[05:36:16.322] Launcher exception: FrostMenuMod.dll not found next to launcher
+
+=== FrostMP Log Started: Sat Nov 14 05:36:21 2026
+[05:36:21.724] Launcher Run: argc=1
+[05:36:21.724]   argv[0] = G:\claude_code\FrostpunkMultiplayer\build\Debug\FrostpunkMultiplayerLauncher.exe
+[05:36:21.725] Launcher: dllPath = G:\claude_code\FrostpunkMultiplayer\build\Debug\FrostMenuMod.dll
+[05:36:21.725] Launcher exception: FrostMenuMod.dll not found next to launcher
+
+=== FrostMP Log Started: Sat Nov 14 05:36:24 2026
+[05:36:24.208] Launcher Run: argc=1
+[05:36:24.209]   argv[0] = G:\claude_code\FrostpunkMultiplayer\build\Debug\FrostpunkMultiplayerLauncher.exe
+[05:36:24.209] Launcher: dllPath = G:\claude_code\FrostpunkMultiplayer\build\Debug\FrostMenuMod.dll
+[05:36:24.211] Launcher exception: FrostMenuMod.dll not found next to launcher
+
+=== FrostMP Log Started: Sat Nov 14 05:38:24 2026
+[05:38:24.363] Launcher Run: argc=1
+[05:38:24.363]   argv[0] = G:\claude_code\FrostpunkMultiplayer\build\Debug\FrostpunkMultiplayerLauncher.exe
+[05:38:24.364] Launcher: dllPath = G:\claude_code\FrostpunkMultiplayer\build\Debug\FrostMenuMod.dll
+[05:38:24.364] Launcher exception: FrostMenuMod.dll not found next to launcher
+
+=== FrostMP Log Started: Sat Nov 14 05:46:42 2026
+[05:46:42.282] Launcher Run: argc=1
+[05:46:42.282]   argv[0] = G:\claude_code\FrostpunkMultiplayer\build\Debug\FrostpunkMultiplayerLauncher.exe
+[05:46:42.283] Launcher: dllPath = G:\claude_code\FrostpunkMultiplayer\build\Debug\FrostMenuMod.dll
+[05:46:42.284] Launcher exception: FrostMenuMod.dll not found next to launcher
+
+=== FrostMP Log Started: Sat Nov 14 05:46:46 2026
+[05:46:46.880] Launcher Run: argc=1
+[05:46:46.880]   argv[0] = G:\claude_code\FrostpunkMultiplayer\build\Debug\FrostpunkMultiplayerLauncher.exe
+[05:46:46.881] Launcher: dllPath = G:\claude_code\FrostpunkMultiplayer\build\Debug\FrostMenuMod.dll
+[05:46:46.882] Launcher exception: FrostMenuMod.dll not found next to launcher
+
+=== FrostMP Log Started: Sat Nov 14 05:46:59 2026
+[05:46:59.985] Launcher Run: argc=1
+[05:46:59.985]   argv[0] = G:\claude_code\FrostpunkMultiplayer\build\Debug\FrostpunkMultiplayerLauncher.exe
+[05:46:59.985] Launcher: dllPath = G:\claude_code\FrostpunkMultiplayer\build\Debug\FrostMenuMod.dll
+[05:46:59.986] Launcher: Calling LaunchOrAttach
+[05:46:59.986] LaunchOrAttach: newInstance=0, attachPid=0
+[05:46:59.994] LaunchOrAttach: target PID=0
+[05:46:59.994] LaunchOrAttach: Starting new instance
+[05:46:59.995] LaunchOrAttach: gamePath=C:\Program Files (x86)\Steam\steamapps\common\Frostpunk\Frostpunk.exe
+[05:47:00.29] Game SHA256: 031dbfe529256b7bf532aa11bfaf8ef75ef0618aa0492a970e532566342ba19d
+[05:47:00.29] Detected game version: 1.6.2
+[05:47:00.29] LaunchOrAttach: workingDir=C:\Program Files (x86)\Steam\steamapps\common\Frostpunk
+[05:47:00.29] LaunchOrAttach: Calling CreateProcessW
+[05:47:00.36] LaunchOrAttach: CreateProcessW succeeded, PID=30004
+[05:47:00.37] LaunchOrAttach: Waiting for kernel32 in new process
+[05:47:00.75] LaunchOrAttach: Injecting DLL
+[05:47:00.375] LaunchOrAttach: Injection complete
+[05:47:00.877] CallModInitFunction: isHost=1, localSteamID=76561199020386575, hostSteamID=76561199019505166
+[05:47:00.882] CallModInitFunction: remoteDllBase=0x7FFA85260000, remoteFuncAddr=0x7FFA852B740C
+[05:47:00.883] CallModInitFunction: Creating remote thread at shellcode, isHost=1, localSteamID=76561199020386575, hostSteamID=76561199019505166, remoteFuncAddr=0x7FFA852B740C
+[05:47:01.159] CallModInitFunction: remote thread wait=0, exitCode=0x0
+[05:47:01.160] CallModInitFunction: Init function called successfully (thread exitCode=0x0)
+[05:47:06.567] LaunchOrAttach: Final game process code: 259
+[05:47:06.567] Launcher: LaunchOrAttach returned
+
+=== FrostMP Log Started: Sat Nov 14 06:00:58 2026
+[06:00:58.759] Launcher Run: argc=1
+[06:00:58.760]   argv[0] = G:\claude_code\FrostpunkMultiplayer\build\Debug\FrostpunkMultiplayerLauncher.exe
+[06:00:58.760] Launcher: dllPath = G:\claude_code\FrostpunkMultiplayer\build\Debug\FrostMenuMod.dll
+[06:00:58.761] Launcher: Calling LaunchOrAttach
+[06:00:58.761] LaunchOrAttach: newInstance=0, attachPid=0
+[06:00:58.767] LaunchOrAttach: target PID=0
+[06:00:58.768] LaunchOrAttach: Starting new instance
+[06:00:58.769] LaunchOrAttach: gamePath=C:\Program Files (x86)\Steam\steamapps\common\Frostpunk\Frostpunk.exe
+[06:00:58.805] Game SHA256: 031dbfe529256b7bf532aa11bfaf8ef75ef0618aa0492a970e532566342ba19d
+[06:00:58.805] Detected game version: 1.6.2
+[06:00:58.805] LaunchOrAttach: workingDir=C:\Program Files (x86)\Steam\steamapps\common\Frostpunk
+[06:00:58.806] LaunchOrAttach: Calling CreateProcessW
+[06:00:58.811] LaunchOrAttach: CreateProcessW succeeded, PID=19932
+[06:00:58.812] LaunchOrAttach: Waiting for kernel32 in new process
+[06:00:58.848] LaunchOrAttach: Injecting DLL
+[06:00:59.71] LaunchOrAttach: Injection complete
+[06:00:59.577] CallModInitFunction: isHost=1, localSteamID=76561199020386575, hostSteamID=76561199019505166
+[06:00:59.585] CallModInitFunction: remoteDllBase=0x7FFA86DB0000, remoteFuncAddr=0x7FFA86E0740C
+[06:00:59.587] CallModInitFunction: Creating remote thread at shellcode, isHost=1, localSteamID=76561199020386575, hostSteamID=76561199019505166, remoteFuncAddr=0x7FFA86E0740C
+[06:01:29.599] CallModInitFunction: remote thread wait=258, exitCode=0x103
+[06:01:29.599] CallModInitFunction: Init function timed out (thread may still be running)
+[06:01:35.32] LaunchOrAttach: Final game process code: 259
+[06:01:35.32] Launcher: LaunchOrAttach returned
+
+=== FrostMP Log Started: Sat Nov 14 06:01:51 2026
+[06:01:51.267] Launcher Run: argc=1
+[06:01:51.267]   argv[0] = G:\claude_code\FrostpunkMultiplayer\build\Debug\FrostpunkMultiplayerLauncher.exe
+[06:01:51.268] Launcher: dllPath = G:\claude_code\FrostpunkMultiplayer\build\Debug\FrostMenuMod.dll
+[06:01:51.268] Launcher: Calling LaunchOrAttach
+[06:01:51.268] LaunchOrAttach: newInstance=0, attachPid=0
+[06:01:51.276] LaunchOrAttach: target PID=19932
+[06:01:51.277] LaunchOrAttach: Attaching to existing process
+[06:01:51.312] Game SHA256: 031dbfe529256b7bf532aa11bfaf8ef75ef0618aa0492a970e532566342ba19d
+[06:01:51.312] Detected game version: 1.6.2
+[06:01:51.821] CallModInitFunction: isHost=1, localSteamID=76561199020386575, hostSteamID=76561199019505166
+[06:01:51.829] CallModInitFunction: remoteDllBase=0x7FFA86DB0000, remoteFuncAddr=0x7FFA86E0740C
+[06:01:51.830] CallModInitFunction: Creating remote thread at shellcode, isHost=1, localSteamID=76561199020386575, hostSteamID=76561199019505166, remoteFuncAddr=0x7FFA86E0740C
+
+=== FrostMP Log Started: Sat Nov 14 06:02:20 2026
+[06:02:20.643] Launcher Run: argc=1
+[06:02:20.643]   argv[0] = G:\claude_code\FrostpunkMultiplayer\build\Debug\FrostpunkMultiplayerLauncher.exe
+[06:02:20.643] Launcher: dllPath = G:\claude_code\FrostpunkMultiplayer\build\Debug\FrostMenuMod.dll
+[06:02:20.644] Launcher: Calling LaunchOrAttach
+[06:02:20.644] LaunchOrAttach: newInstance=0, attachPid=0
+[06:02:20.651] LaunchOrAttach: target PID=19932
+[06:02:20.652] LaunchOrAttach: Attaching to existing process
+[06:02:20.688] Game SHA256: 031dbfe529256b7bf532aa11bfaf8ef75ef0618aa0492a970e532566342ba19d
+[06:02:20.688] Detected game version: 1.6.2
+[06:02:21.200] CallModInitFunction: isHost=1, localSteamID=76561199020386575, hostSteamID=76561199019505166
+[06:02:21.208] CallModInitFunction: remoteDllBase=0x7FFA86DB0000, remoteFuncAddr=0x7FFA86E0740C
+[06:02:21.209] CallModInitFunction: Creating remote thread at shellcode, isHost=1, localSteamID=76561199020386575, hostSteamID=76561199019505166, remoteFuncAddr=0x7FFA86E0740C
+[06:02:51.209] CallModInitFunction: remote thread wait=258, exitCode=0x103
+[06:02:51.209] CallModInitFunction: Init function timed out (thread may still be running)
+[06:02:51.210] Launcher: LaunchOrAttach returned

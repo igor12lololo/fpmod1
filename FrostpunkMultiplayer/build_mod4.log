@@ -1,0 +1,20 @@
+Building FrostMenuMod.dll (Release)...
+Версия MSBuild 18.3.0-release-26070-10+3972042b7 для .NET Framework
+
+C:\Program Files\Microsoft Visual Studio\2022\Community\Msbuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: промежуточный каталог (G:\claude_code\FrostpunkMultiplayer\build\Release\) содержит файлы, которые используются совместно с другим проектом (FrostpunkMultiplayerLauncher.vcxproj).  Это может привести к ошибкам очистки и перестроения. [G:\claude_code\FrostpunkMultiplayer\build\FrostMenuMod.vcxproj]
+  Проверка источников на наличие зависимостей модуля…
+  ModMain.cpp
+DllMain.obj : error LNK2005: FrostMP_GetConnectionState уже определен в ModMain.obj [G:\claude_code\FrostpunkMultiplayer\build\FrostMenuMod.vcxproj]
+DllMain.obj : error LNK2005: FrostMP_IsInitialized уже определен в ModMain.obj [G:\claude_code\FrostpunkMultiplayer\build\FrostMenuMod.vcxproj]
+DllMain.obj : error LNK2005: FrostMP_Shutdown уже определен в ModMain.obj [G:\claude_code\FrostpunkMultiplayer\build\FrostMenuMod.vcxproj]
+DllMain.obj : error LNK2005: FrostMP_InitializeClient уже определен в ModMain.obj [G:\claude_code\FrostpunkMultiplayer\build\FrostMenuMod.vcxproj]
+DllMain.obj : error LNK2005: FrostMP_InitializeHost уже определен в ModMain.obj [G:\claude_code\FrostpunkMultiplayer\build\FrostMenuMod.vcxproj]
+     Создается библиотека G:\claude_code\FrostpunkMultiplayer\Release\FrostMenuMod.lib и объект G:\claude_code\FrostpunkMultiplayer\Release\FrostMenuMod.exp
+G:\claude_code\FrostpunkMultiplayer\Release\FrostMenuMod.dll : fatal error LNK1169: обнаружен многократно определенный символ - один или более [G:\claude_code\FrostpunkMultiplayer\build\FrostMenuMod.vcxproj]
+Build failed with exit code 1
+G:\claude_code\FrostpunkMultiplayer\Build-ModDLL.ps1:205 ����:5
++     throw "Build failed with exit code $exitCode"
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (Build failed with exit code 1:String) [], RuntimeException
+    + FullyQualifiedErrorId : Build failed with exit code 1
+ 

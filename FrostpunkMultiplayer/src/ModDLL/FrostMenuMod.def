@@ -1,0 +1,7 @@
+LIBRARY "FrostMenuMod"
+EXPORTS
+    FrostMP_InitializeHost @1
+    FrostMP_InitializeClient @2
+    FrostMP_Shutdown @3
+    FrostMP_IsInitialized @4
+    FrostMP_GetConnectionState @5

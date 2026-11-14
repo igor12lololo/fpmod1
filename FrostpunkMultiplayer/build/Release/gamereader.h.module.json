@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "G:\\claude_code\\FrostpunkMultiplayer\\build\\Release\\GameReader.h.obj",
+            "outputs": [
+                "G:\\claude_code\\FrostpunkMultiplayer\\build\\Release\\vc143.pdb",
+                "G:\\claude_code\\FrostpunkMultiplayer\\build\\Release\\",
+                "G:\\claude_code\\FrostpunkMultiplayer\\build\\Release\\GameReader.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "..\\src\\GameHooks\\GameReader.h",
+                    "source-path": "g:\\claude_code\\frostpunkmultiplayer\\src\\gamehooks\\gamereader.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

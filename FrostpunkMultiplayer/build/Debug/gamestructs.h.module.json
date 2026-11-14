@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "Debug\\GameStructs.h.obj",
+            "outputs": [
+                "G:\\claude_code\\FrostpunkMultiplayer\\build\\Debug\\vc143.pdb",
+                "Debug\\",
+                "G:\\claude_code\\FrostpunkMultiplayer\\build\\Debug\\GameStructs.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "..\\src\\GameHooks\\GameStructs.h",
+                    "source-path": "g:\\claude_code\\frostpunkmultiplayer\\src\\gamehooks\\gamestructs.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}
